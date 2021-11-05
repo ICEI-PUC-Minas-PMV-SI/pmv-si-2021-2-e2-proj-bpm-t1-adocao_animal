@@ -32,7 +32,7 @@ Palavras-chave: Adoção. ONGs. Animais.
 ### SUMÁRIO
 
 * [1 INTRODUÇÃO](#introducao)<a name="sumario"></a>
-* [1.1 OBJETIVOS GERAL E ESPECÍFICO](#geral)
+* [1.1 OBJETIVO GERAL](#geral)
 * [1.1.1 OBJETIVOS ESPECÍFICOS](#especificos)
 * [1.2 JUSTIFICATIVA](#justificativa)
 * [2 PARTICIPANTES DO PROCESSO DE NEGÓCIO](#participantes)
@@ -59,7 +59,7 @@ Palavras-chave: Adoção. ONGs. Animais.
 * [5.1 ASSOCIAÇÃO DE COMANDOS SQL COM RELATÓRIOS ANALÍTICOS](#comandosSQL)
 * [6 INDICADORES DE DESEMPENHO](#indicadores)
 * [7 CONCLUSÃO](#conclusao)
-* [REFERÊNCIAS](#referencia)
+* [REFERÊNCIAS](#ref)
 
 ### [1 INTRODUÇÃO](#sumario) <a name="introducao"></a>
 
@@ -401,7 +401,7 @@ FROM
 WHERE
  tratamento;
 ```
-### [5 RELATÓRIOS ANALÍTICOS](#sumario) <a name="relatorios"></a>
+### [5 RELATÓRIOS ANALÍTICOS](#sumario) <a name="analiticos"></a>
 
 Considerando as necessidades de informações das diversas partes interessadas nos processos eleitos, desenvolvam, com o apoio da ferramenta empregada na disciplina, relatórios úteis para o controle dos processos e a tomada de decisão.
 Cada processo identificado deve possuir, no mínimo, um relatório analítico associado. Os relatórios devem utilizar os recursos de filtros, agregadores, agrupadores e ordenação disponibilizados pela ferramenta.
@@ -434,7 +434,7 @@ select Nome da ONG, Email, Logradouro, Bairro, Município, CEP, Data da criaçã
 
 
 
-### [6 INDICADORES DE DESEMPENHO](#sumario) <a name="desempenho"></a>
+### [6 INDICADORES DE DESEMPENHO](#sumario) <a name="indicadores"></a>
 
 Com uma visão mais estratégica, identifiquem, a partir dos relatórios analíticos, indicadores chave de processo (KPIs – Key Process Indicator) que permitam um acompanhamento integrado dos vários processos eleitos. 
 Detalhem na tabela abaixo pelo menos cinco indicadores de desempenho identificados. Esses indicadores de desempenho devem ser descritos por meio de medidas estatísticas, conforme exemplo abaixo.
@@ -500,7 +500,7 @@ Como um animal será adotado, cabe a pessoa que o adotou ser seu responsável. N
 
 
 
-### [REFERÊNCIAS](#sumario) <a name="referencias"></a>
+### [REFERÊNCIAS](#sumario) <a name="ref"></a>
 
 Como um projeto de software não requer revisão bibliográfica, a inclusão das referências não é obrigatória. No entanto, caso vocês desejem incluir referências relacionadas às tecnologias, padrões, ou metodologias empregadas no trabalho, relacione-as de acordo com a ABNT.
 Verifiquem no link abaixo como devem ser as referências no padrão ABNT:
