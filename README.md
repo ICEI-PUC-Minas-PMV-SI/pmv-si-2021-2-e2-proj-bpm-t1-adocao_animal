@@ -385,12 +385,12 @@ FROM
     animais;
 
 
-
 Quantas ONGs estão cadastradas
 SELECT
     COUNT(id)
 FROM
     ONGS;
+    
 
 Quantos Animais estão em tratamento
 SELECT
