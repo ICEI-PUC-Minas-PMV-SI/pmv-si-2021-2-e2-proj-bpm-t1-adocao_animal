@@ -58,7 +58,7 @@ Palavras-chave: Adoção. ONGs. Animais.
 * [5.1 ASSOCIAÇÃO DE COMANDOS SQL COM RELATÓRIOS ANALÍTICOS](#25)
 * [6 INDICADORES DE DESEMPENHO](#26)
 * [7 CONCLUSÃO](#27)
-* [REFERÊNCIAS](#28)
+* [REFERÊNCIAS](#28)<a name="028"></a>
 
 ### 1 INTRODUÇÃO <a name="1"></a>
 
@@ -499,7 +499,7 @@ Como um animal será adotado, cabe a pessoa que o adotou ser seu responsável. N
 
 
 
-### REFERÊNCIAS <a name="29"></a>
+### [REFERÊNCIAS](#028) <a name="28"></a>
 
 Como um projeto de software não requer revisão bibliográfica, a inclusão das referências não é obrigatória. No entanto, caso vocês desejem incluir referências relacionadas às tecnologias, padrões, ou metodologias empregadas no trabalho, relacione-as de acordo com a ABNT.
 Verifiquem no link abaixo como devem ser as referências no padrão ABNT:
