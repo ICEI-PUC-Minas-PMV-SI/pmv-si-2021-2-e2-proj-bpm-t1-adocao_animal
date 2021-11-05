@@ -5,7 +5,7 @@
 `APLICAÇÕES PARA PROCESSOS DE NEGÓCIOS - TURMA 01`
 
 `2021/2`
-![teste](img/image.png) .
+
 Trabalho apresentado à disciplina Aplicações para Processos de Negócios do Curso de Bacharelado em Sistemas de Informação da Pontifícia Universidade Católica de Minas Gerais.
 
 ## Integrantes
@@ -152,6 +152,7 @@ O fator principal que prejudica este modelo está diretamente voltado à comunic
 Devido ao modelo atual ser executado de forma manual (sem um sistema integrado), o recebimento de animais em organizações e os procedimentos a serem realizados, estão resumidos em somente um processo, denominado cadastro de animais.
 
 Figura 1 - Modelo AS-IS do processo de cadastro de animais
+![figura1](img/CadAnimaisAS.png)
 Fonte: Os autores.
 
 ### [3.1.2 Processo de Cadastro de Clínicas Veterinárias Parceiras e Veterinários Voluntários (AS-IS)](#sumario) <a name="clinicasAS"></a>
