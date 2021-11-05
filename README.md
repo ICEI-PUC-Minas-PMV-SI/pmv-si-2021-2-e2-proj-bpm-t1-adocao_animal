@@ -31,7 +31,7 @@ Palavras-chave: Adoção. ONGs. Animais.
 
 ### SUMÁRIO
 
-* 1 INTRODUÇÃO	5[1](#1)
+* [1 INTRODUÇÃO	5](#1 INTRODUÇÃO 5)
 * 1.1 OBJETIVOS GERAL E ESPECÍFICOS	7
 * 1.2 JUSTIFICATIVA	7
 * 2 PARTICIPANTES DO PROCESSO DE NEGÓCIO	9
@@ -56,7 +56,7 @@ Palavras-chave: Adoção. ONGs. Animais.
 * 7 CONCLUSÃO	21
 * REFERÊNCIAS	22
 
-### 1 INTRODUÇÃO <a name="1"></a>
+### 1 INTRODUÇÃO <a name="1 INTRODUÇÃO	5"></a>
 
 A escolha do tema do projeto nasceu durante discussões referentes aos temas sugeridos para o projeto Aplicações para Processos de Negócios. O grupo vislumbrou a oportunidade de desenvolver uma plataforma que fomente e facilite o processo de adoção de animais abandonados.
 Segundo publicação da ANDA, Agência de Notícias de Direitos Animais, no site da Jusbrasil, “A Organização Mundial da Saúde estima que só no Brasil existam mais de 30 milhões de animais abandonados, entre 10 milhões de gatos e 20 milhões de cães.” (ANDA, 2013). Atualmente, a internet é a principal fonte de divulgação de eventos de adoção de animais, como também de protestos contra as injúrias que os animais sofrem.
