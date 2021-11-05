@@ -376,7 +376,8 @@ Fonte: Os autores.
 
 
 ### [4.4 ESBOÇO DE CONSULTAS COM SQL DE ACORDO COM AS NECESSIDADES DOS PARTICIPANTES DO PROCESSO](#sumario) <a name="consultaSQL"></a>
-```
+
+```SQL
 Quantos Animais estão cadastrados
 SELECT
     COUNT(id)
@@ -399,6 +400,7 @@ FROM
 WHERE
  tratamento;
 ```
+
 ### [5 RELATÓRIOS ANALÍTICOS](#sumario) <a name="analiticos"></a>
 
 Considerando as necessidades de informações das diversas partes interessadas nos processos eleitos, desenvolvam, com o apoio da ferramenta empregada na disciplina, relatórios úteis para o controle dos processos e a tomada de decisão.
