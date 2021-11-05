@@ -31,36 +31,37 @@ Palavras-chave: Adoção. ONGs. Animais.
 
 ### SUMÁRIO
 
-* [1 INTRODUÇÃO](#1)<a name="sumario"></a>
-* [1.1 OBJETIVOS GERAL E ESPECÍFICO](#2)
-* [1.2 JUSTIFICATIVA](#3)
-* [2 PARTICIPANTES DO PROCESSO DE NEGÓCIO](#4)
-* [3 MODELAGEM DO PROCESSO DE NEGÓCIO](#5)
-* [3.1 ANÁLISE DA SITUAÇÃO ATUAL (AS-IS)](#6)
-* [3.1.1 Processo de Cadastro de Animais (AS-IS)](#7)
-* [3.1.2 Processo de Cadastro de Clínicas Veterinárias Parceiras e Veterinários Voluntários (AS-IS)](#8)
-* [3.1.3 Processo de Cadastro de Adotantes (AS-IS)](#9)
-* [3.1.4 Processo de Adoção (AS-IS)](#10)
-* [3.1.5 Processo de Pós-Adoção (AS-IS)](#11)
-* [3.2 MODELAGEM DOS PROCESSOS APRIMORADOS (TO-BE)](#12)
-* [3.2.1 Processo de Cadastro de ONG e Abrigo (TO-BE)](#13)
-* [3.2.2 Processo de Cadastro de Clínicas Veterinárias Parceiras e Veterinários Voluntários (TO-BE)](#14)
-* [3.2.3 Processo de Cadastro de Animais (TO-BE)](#15)
-* [3.2.4 Processo de Cadastro de Adotantes (TO-BE)](#16)
-* [3.2.5 Processo de Adoção (TO-BE)](#17)
-* [3.2.6 Processo de Pós-Adoção (TO-BE)](#18)
-* [4 PROJETO DA ARQUITETURA DE DADOS DA SOLUÇÃO PROPOSTA](#19)
-* [4.1 DIAGRAMA DE ENTIDADES E RELACIONAMENTOS (DER)](#20)
-* [4.2 IMPACTOS DA IMPLEMENTAÇÃO EM UM BANCO DE DADOS NOSQL](#21)
-* [4.3 MODELO RELACIONAL](#22)
-* [4.4 ESBOÇO DE CONSULTAS COM SQL DE ACORDO COM AS NECESSIDADES DOS PARTICIPANTES DO PROCESSO](#23)
-* [5 RELATÓRIOS ANALÍTICOS](#24)
-* [5.1 ASSOCIAÇÃO DE COMANDOS SQL COM RELATÓRIOS ANALÍTICOS](#25)
-* [6 INDICADORES DE DESEMPENHO](#26)
-* [7 CONCLUSÃO](#27)
-* [REFERÊNCIAS](#28)
+* [1 INTRODUÇÃO](#introducao)<a name="sumario"></a>
+* [1.1 OBJETIVOS GERAL E ESPECÍFICO](#geral)
+* [1.1.1 OBJETIVOS ESPECÍFICOS](#especificos)
+* [1.2 JUSTIFICATIVA](#justificativa)
+* [2 PARTICIPANTES DO PROCESSO DE NEGÓCIO](#participantes)
+* [3 MODELAGEM DO PROCESSO DE NEGÓCIO](#modelagem)
+* [3.1 ANÁLISE DA SITUAÇÃO ATUAL (AS-IS)](#atualAS)
+* [3.1.1 Processo de Cadastro de Animais (AS-IS)](#animaisAS)
+* [3.1.2 Processo de Cadastro de Clínicas Veterinárias Parceiras e Veterinários Voluntários (AS-IS)](#clinicasAS)
+* [3.1.3 Processo de Cadastro de Adotantes (AS-IS)](#adotantesAS)
+* [3.1.4 Processo de Adoção (AS-IS)](#adocaoAS)
+* [3.1.5 Processo de Pós-Adoção (AS-IS)](#posAS)
+* [3.2 MODELAGEM DOS PROCESSOS APRIMORADOS (TO-BE)](#modelagemTO)
+* [3.2.1 Processo de Cadastro de ONG e Abrigo (TO-BE)](#ongTO)
+* [3.2.2 Processo de Cadastro de Clínicas Veterinárias Parceiras e Veterinários Voluntários (TO-BE)](#clinicasTO)
+* [3.2.3 Processo de Cadastro de Animais (TO-BE)](#animaisTO)
+* [3.2.4 Processo de Cadastro de Adotantes (TO-BE)](#adotantesTO)
+* [3.2.5 Processo de Adoção (TO-BE)](#adocaoTO)
+* [3.2.6 Processo de Pós-Adoção (TO-BE)](#posTO)
+* [4 PROJETO DA ARQUITETURA DE DADOS DA SOLUÇÃO PROPOSTA](#arquitetura)
+* [4.1 DIAGRAMA DE ENTIDADES E RELACIONAMENTOS (DER)](#der)
+* [4.2 IMPACTOS DA IMPLEMENTAÇÃO EM UM BANCO DE DADOS NOSQL](#noSQL)
+* [4.3 MODELO RELACIONAL](#relacional)
+* [4.4 ESBOÇO DE CONSULTAS COM SQL DE ACORDO COM AS NECESSIDADES DOS PARTICIPANTES DO PROCESSO](#consultaSQL)
+* [5 RELATÓRIOS ANALÍTICOS](#analiticos)
+* [5.1 ASSOCIAÇÃO DE COMANDOS SQL COM RELATÓRIOS ANALÍTICOS](#comandosSQL)
+* [6 INDICADORES DE DESEMPENHO](#indicadores)
+* [7 CONCLUSÃO](#conclusao)
+* [REFERÊNCIAS](#referencia)
 
-### [1 INTRODUÇÃO](#sumario) <a name="1"></a>
+### [1 INTRODUÇÃO](#sumario) <a name="introducao"></a>
 
 A escolha do tema do projeto nasceu durante discussões referentes aos temas sugeridos para o projeto Aplicações para Processos de Negócios. O grupo vislumbrou a oportunidade de desenvolver uma plataforma que fomente e facilite o processo de adoção de animais abandonados.
 Segundo publicação da ANDA, Agência de Notícias de Direitos Animais, no site da Jusbrasil, “A Organização Mundial da Saúde estima que só no Brasil existam mais de 30 milhões de animais abandonados, entre 10 milhões de gatos e 20 milhões de cães.” (ANDA, 2013). Atualmente, a internet é a principal fonte de divulgação de eventos de adoção de animais, como também de protestos contra as injúrias que os animais sofrem.
@@ -71,11 +72,11 @@ A facilidade tecnológica atual propicia o acesso rápido à informação, seja 
 
 
 
-### [1.1 OBJETIVO GERAL](#sumario) <a name="2"></a>
+### [1.1 OBJETIVO GERAL](#sumario) <a name="geral"></a>
 
 Propor a utilização de um Sistema Gerenciador de Banco de Dados (SGBD) para o negócio de adoção de animais. Os dados dos participantes do negócio estarão armazenados em um banco de dados próprio para cada um, nos quais irão se relacionar, tornando assim mais prático a consulta, inclusão, alteração ou exclusão.
 
-### 1.1.1 OBJETIVOS ESPECÍFICOS
+### [1.1.1 OBJETIVOS ESPECÍFICOS](#sumario) <a name="especificos"></a>
 
 Propiciar o cadastro dos dados de ONGs ou abrigos de animais na plataforma. As informações das ONGs ou dos abrigos serão declaradas pelas próprias entidades, para que então possam desenvolver o papel principal no negócio.
 Permitir a inclusão dos dados de clínicas veterinárias parceiras das ONGs ou dos abrigos, assim como de veterinários voluntários. As informações serão prestadas pelas clínicas e veterinários.
@@ -91,7 +92,7 @@ Proporcionar para as ONGs e abrigos e, quando necessário, para as clínicas vet
 
 
 
-### [1.2 JUSTIFICATIVA](#sumario) <a name="3"></a>
+### [1.2 JUSTIFICATIVA](#sumario) <a name="justificativa"></a>
 
 O trabalho realizado por ONGs de Proteção Animal e abrigos de animais, vai além do processo de adoção. Essas entidades se organizam para disponibilizar pelo menos o mínimo necessário para os animais, até mesmo não tendo nenhum tipo de contribuição vinda de uma instituição do governo. Dessa forma, elas aceitam doações de ração, dinheiro, itens e produtos, bem como o voluntariado de pessoas dispostas a colaborar.
 Tendo em vista o trabalho excepcional que as organizações que protegem animais exercem, sendo que a maioria não tem nenhum apoio do governo, elas ainda mantêm o controle de natalidade, mortalidade, abandono, resgate e tratamento dos animais.
@@ -113,7 +114,7 @@ Em suma, o desenvolvimento deste sistema não tem apenas o objetivo de ser mais 
 
 
 
-### [2 PARTICIPANTES DO PROCESSO DE NEGÓCIO](#sumario) <a name="4"></a>
+### [2 PARTICIPANTES DO PROCESSO DE NEGÓCIO](#sumario) <a name="participantes"></a>
 
 Os participantes do negócio de adoção de animais, também denominado stakeholders, cumprem diferentes papéis, desempenhando funções que influenciam e interessam a todos os processos, de forma que afetam as atividades diretamente. Eles são caracterizados da seguinte maneira:
 ONG - entidade que não tem fins lucrativos e pratica ações solidárias para um público específico, nessa ocasião, a proteção animal. Ela pode atuar em conjunto com abrigos de animais. Desempenha a função de cadastrar os animais disponíveis para adoção e de manter o controle deles durante os processos.
@@ -131,9 +132,9 @@ Clínica Veterinária Parceira e Veterinário Voluntário - geralmente uma ONG o
 
 
 
-### [3 MODELAGEM DO PROCESSO DE NEGÓCIO](#sumario) <a name="5"></a>
+### [3 MODELAGEM DO PROCESSO DE NEGÓCIO](#sumario) <a name="modelagem"></a>
 
-### [3.1 ANÁLISE DA SITUAÇÃO ATUAL (AS-IS)](#sumario) <a name="6"></a>
+### [3.1 ANÁLISE DA SITUAÇÃO ATUAL (AS-IS)](#sumario) <a name="atualAS"></a>
 
 No atual modelo de negócio de adoção animal, os envolvidos estão ligados em uma cadeia, mas se perdem pelo fato de não existir uma linha de conexão direta entre as diversas fases do processo.
 Abrigos e ONGs, coletam animais que foram abandonados ou recebem animais doados para adoção. Os animais recém chegados precisam ser tratados, contando com a intervenção veterinária para controle populacional e de zoonoses, para então, serem disponibilizados para adoção. Esses são os procedimentos básicos a serem executados, pois a oportunidade de conseguir um lar para esses animais conta também com outra barreira a ser superada, que é a atitude do candidato de se deslocar até o local onde o animal se encontra.
@@ -146,14 +147,14 @@ O fator principal que prejudica este modelo está diretamente voltado à comunic
 
 
 
-### [3.1.1 Processo de Cadastro de Animais (AS-IS)](#sumario) <a name="7"></a>
+### [3.1.1 Processo de Cadastro de Animais (AS-IS)](#sumario) <a name="animaisAS"></a>
 
 Devido ao modelo atual ser executado de forma manual (sem um sistema integrado), o recebimento de animais em organizações e os procedimentos a serem realizados, estão resumidos em somente um processo, denominado cadastro de animais.
 
 Figura 1 - Modelo AS-IS do processo de cadastro de animais
 Fonte: Os autores.
 
-### [3.1.2 Processo de Cadastro de Clínicas Veterinárias Parceiras e Veterinários Voluntários (AS-IS)](#sumario) <a name="8"></a>
+### [3.1.2 Processo de Cadastro de Clínicas Veterinárias Parceiras e Veterinários Voluntários (AS-IS)](#sumario) <a name="clinicasAS"></a>
 
 As ONGs e abrigos de adoção animal precisam cuidar da saúde dos animais. Mas pelo fato de não terem condições financeiras para isso, elas fazem parcerias com clínicas veterinárias e até mesmo com veterinários que se voluntariam para cuidar dos animais.
 O processo se baseia em entrar em contato com as clínicas ou veterinários que queiram fazer esta parceria ou divulgar nos sites e redes sociais a causa. Os voluntários se comovem e se cadastram nestas organizações, para assim poder ajudar os animais.
@@ -165,7 +166,7 @@ O processo se baseia em entrar em contato com as clínicas ou veterinários que 
 Figura 2 - Modelo AS-IS do processo de cadastro de clínicas veterinárias parceiras e veterinários voluntários
 Fonte: Os autores.
 
-### [3.1.3 Processo de Cadastro de Adotantes (AS-IS)](#sumario) <a name="9"></a>
+### [3.1.3 Processo de Cadastro de Adotantes (AS-IS)](#sumario) <a name="AdotantesAS"></a>
 
 As pessoas que têm interesse em adotar um animal precisam entrar em contato com as ONGs para descobrir onde e quando acontecerá uma feira de adoção. Elas, também, frequentemente, acessam os sites e redes sociais dessas organizações para procurar animais.
 Sem um cadastro prévio do possível candidato para adoção, as ONGs não conseguem fazer uma triagem eficiente dos candidatos e também não possuem um canal eficaz de comunicação e publicação de animais para adoção. É um processo bastante manual e que depende de vários deslocamentos para conseguir localizar um animal.
@@ -185,7 +186,7 @@ Sem um cadastro prévio do possível candidato para adoção, as ONGs não conse
 Figura 3 - Modelo AS-IS do processo de cadastro de adotantes
 Fonte: Os autores.
 
-### [3.1.4 Processo de Adoção (AS-IS)](#sumario) <a name="10"></a>
+### [3.1.4 Processo de Adoção (AS-IS)](#sumario) <a name="adocaoAS"></a>
 
 O processo de adoção tem início com a ONG verificando os relatórios com as informações disponíveis dos animais e conferindo os dados do animal que o adotante escolheu. Nessa avaliação, o estado de saúde do animal é examinado, caso ele tenha algum problema de saúde, a pessoa responsável na ONG entra em contato com  o veterinário responsável pelo animal para que seja feito uma avaliação de saúde. O animal é enviado para a clínica veterinária para realizar o check-up veterinário. Após a liberação do animal, é marcado um encontro com o adotante para entregar o animal, no qual assina o Termo de Comprometimento e Responsabilidade e, o processo é finalizado.
 
@@ -198,7 +199,7 @@ O processo de adoção tem início com a ONG verificando os relatórios com as i
 Figura 4 - Modelo AS-IS do processo de adoção
 Fonte: Os autores.
 
-### [3.1.5 Processo de Pós-Adoção (AS-IS)](#sumario) <a name="11"></a>
+### [3.1.5 Processo de Pós-Adoção (AS-IS)](#sumario) <a name="posAS"></a>
 
 O processo de pós-adoção tem início com o adotante enviando fotos ou vídeos do animal para a pessoa responsável na ONG. Ela analisa as fotos ou vídeos, se forem aprovadas, é sinal que o animal está sendo bem cuidado. Caso não sejam aprovadas, ela entra em contato com o adotante e pergunta se está havendo algo de errado.
 O adotante responde qual dificuldade está tendo. A pessoa responsável na ONG avalia a situação do adotante e toma as devidas providências. Na hipótese de ser algo relacionado à adaptação do animal, a própria entidade consegue resolver. Se o problema for solucionado, a ONG dá como resolvido este caso, mas se não for possível solucionar, a ONG atenta o adotante e repensa se o animal pode continuar com ele.
@@ -223,7 +224,7 @@ Fonte: Os autores.
 
 
 
-### [3.2 MODELAGEM DOS PROCESSOS APRIMORADOS (TO-BE)](#sumario) <a name="12"></a>
+### [3.2 MODELAGEM DOS PROCESSOS APRIMORADOS (TO-BE)](#sumario) <a name="modelagemTO"></a>
 
 Visando sanar as dores do modelo de negócio atual, tem-se como objetivo, através de recursos tecnológicos, criar o Sistema Integrado de Controle de Adoção de Animais, com as seguintes características:
 Gerir as pessoas que têm interesse em adotar animais;
@@ -268,7 +269,7 @@ Com o acesso público ao sistema, as pessoas envolvidas podem entrar, visualizar
 
 
 
-### [3.2.1 Processo de Cadastro de ONG e Abrigo (TO-BE)](#sumario) <a name="13"></a>
+### [3.2.1 Processo de Cadastro de ONG e Abrigo (TO-BE)](#sumario) <a name="ongTO"></a>
 
 Este processo refere-se ao cadastro de ONG e Abrigo, em que possíveis organizações podem se cadastrar no sistema para disponibilizar animais para adoção, gerenciar o processo de adoção e pós-adoção, bem como interagir com os demais participantes do negócio. A organização pode realizar login no sistema e, posteriormente, alterar algum dado em seu cadastro, como também realizar a exclusão deste.
 
@@ -276,7 +277,7 @@ Figura 6 - Modelo TO-BE do processo de cadastro de ONG e abrigo
 Fonte: Os autores.
 
 
-### [3.2.2 Processo de Cadastro de Clínicas Veterinárias Parceiras e Veterinários Voluntários (TO-BE)](#sumario) <a name="14"></a>
+### [3.2.2 Processo de Cadastro de Clínicas Veterinárias Parceiras e Veterinários Voluntários (TO-BE)](#sumario) <a name="clinicasTO"></a>
 
 Este processo refere-se ao cadastro de veterinários voluntários que podem se cadastrar no sistema para se disponibilizar no tratamento dos animais disponíveis para adoção, bem como interagir com os demais participantes do negócio. Eles podem estar associados a uma clínica veterinária. O veterinário pode realizar login no sistema e, posteriormente, alterar algum dado em seu cadastro, como também realizar a exclusão deste.
 
@@ -288,7 +289,7 @@ Este processo refere-se ao cadastro de veterinários voluntários que podem se c
 Figura 7 - Modelo TO-BE do processo de cadastro de ONG e abrigo
 Fonte: Os autores.
 
-### [3.2.3 Processo de Cadastro de Animais (TO-BE)](#sumario) <a name="15"></a>
+### [3.2.3 Processo de Cadastro de Animais (TO-BE)](#sumario) <a name="animaisTO"></a>
 
 O processo de cadastro de animais consiste em acolher e oferecer para os animais condições favoráveis de sobrevivência e avaliação completa de saúde do animal. Oferecer tratamentos para os que precisam de suporte, para entregar um animal em perfeitas condições de saúde para os futuros adotantes.  
 O objetivo da proposta é para que assim que for comunicado à ONG a doação do animal, seja resgatado ou doado. A ONG por meio de um aplicativo consegue comunicar os veterinários parceiros e consegue agendar uma consulta  para avaliação completa da saúde do animal. Após a avaliação o veterinário  responde se o animal está apto ou não para adoção e o sistema já encaminha os dados do animal e um foto para a divulgação no site e comunica todos os adotantes cadastrados sobre a chegada do novo animal apto para adoção.  
@@ -305,14 +306,14 @@ Manter um registro de todos os dados de saúde e tratamento que o animal recebeu
 Figura 8 - Modelo TO-BE do processo de cadastro de animais
 Fonte: Os autores.
 
-### [3.2.4 Processo de Cadastro de Adotantes (TO-BE)](#sumario) <a name="16"></a>
+### [3.2.4 Processo de Cadastro de Adotantes (TO-BE)](#sumario) <a name="adotantesTO"></a>
 
 Este processo refere-se ao Cadastro de Adotantes, em que possíveis candidatos podem se cadastrar no sistema para adotar um animal. O candidato pode realizar login e, posteriormente, alterar algum dado em seu cadastro, como também realizar a exclusão deste.
 
 Figura 9 - Modelo TO-BE do processo de cadastro de adotantes
 Fonte: Os autores.
 
-### [3.2.5 Processo de Adoção (TO-BE)](#sumario) <a name="17"></a>
+### [3.2.5 Processo de Adoção (TO-BE)](#sumario) <a name="adocaoTO"></a>
 
 Os procedimentos que envolvem o processo de adoção, estão organizados em um fluxo de processos que devem suceder ao "Cadastro de Animais" e "Cadastro de Adotantes", respectivamente. Esses processos são importantes para que haja o controle preciso da disponibilidade de informações para o cadastro de adoção efetuado pela ONG, somado à parceria com clínica veterinária ou veterinário colaborador.
 O processo de adoção tem início com o adotante efetuando a pesquisa do animal de seu interesse e o registrando no sistema. Após o término da pesquisa e escolha do animal, a pessoa responsável na organização verifica se existe o cadastro do adotante no banco de dados e se o cadastro consta como apto para adotar um animal (formulário aprovado). Caso o adotante tenha cadastro e não esteja apto, ela envia um aviso para o adotante: “Verifique seu cadastro de adotante, pois consta como não apto para adotar um animal”. Após o envio do aviso, o processo finaliza neste ponto. Caso o adotante tenha cadastro e esteja apto, inicia o cadastro de adoção, no qual os dados do adotante e do animal escolhido serão associados.
@@ -330,7 +331,7 @@ Fonte: Os autores.
 
 
 
-### [3.2.6 Processo de Pós-Adoção (TO-BE)](#sumario) <a name="18"></a>
+### [3.2.6 Processo de Pós-Adoção (TO-BE)](#sumario) <a name="posTO"></a>
 
 A etapa de pós-adoção é bem significativa e impactante na vida de um animal que foi adotado. O animal deve conseguir se adaptar ao ambiente e se acostumar com os conviventes, além do adotante assumir a responsabilidade acordada de cuidar do animal.
 O adotante se comprometeu a manter contato com a ONG durante um determinado período, mesmo que o animal esteja bem. Esse acordo é importante para que a ONG saiba o que está acontecendo com o animal, como também se é necessário alguma ajuda por parte da ONG ou parceiros.
@@ -343,15 +344,15 @@ Figura 11 - Modelo TO-BE do processo de pós-adoção
 Fonte: Os autores.
 
 
-### [4 PROJETO DA ARQUITETURA DE DADOS DA SOLUÇÃO PROPOSTA](#sumario) <a name="19"></a>
+### [4 PROJETO DA ARQUITETURA DE DADOS DA SOLUÇÃO PROPOSTA](#sumario) <a name="arquitetura"></a>
 
-### [4.1 DIAGRAMA DE ENTIDADES E RELACIONAMENTOS (DER)](#sumario) <a name="20"></a>
+### [4.1 DIAGRAMA DE ENTIDADES E RELACIONAMENTOS (DER)](#sumario) <a name="der"></a>
 
 Figura 12 - Diagrama de Entidades e Relacionamentos
 
 Fonte: Os autores.
 
-### [4.2 IMPACTOS DA IMPLEMENTAÇÃO EM UM BANCO DE DADOS NOSQL](#sumario) <a name="21"></a>
+### [4.2 IMPACTOS DA IMPLEMENTAÇÃO EM UM BANCO DE DADOS NOSQL](#sumario) <a name="noSQL"></a>
 
 O emprego de um banco de dados NoSQL favorece o aumento da capacidade de processamento de um volume massivo de dados com base em metodologias de desenvolvimento ágil. Por serem capazes de lidar com problemas de escalabilidade e flexibilidade de maneira efetiva, os sistemas de bancos de dados NoSQL vêm se tornando indispensáveis em uma arquitetura de aplicação moderna. Entre os seus benefícios estão a capacidade de armazenamento, alto desempenho de processamento, alta disponibilidade, grande flexibilidade, maior tolerância às falhas e o poliglotismo. Um dos principais objetivos também da solução NoSQL é prover uma forma eficiente de acesso aos dados, oferecendo alta disponibilidade e escalabilidade, ou seja, o foco não está em como os dados são armazenados e sim como poderemos recuperá-los de forma eficiente.
 O uso dos bancos de dados NoSQL apresentam algumas características fundamentais que os diferenciam dos tradicionais sistemas de bancos de dados relacionais, tornando-os adequados para armazenamento de grandes volumes de dados não estruturados ou semiestruturados. Algumas de suas principais características estão relacionadas a escalabilidade horizontal, onde  a medida em que o volume de dados cresce, aumenta a necessidade de escalabilidade e melhoria de desempenho. A escalabilidade horizontal tende a ser uma solução mais viável, porém requer que diversas threads/processos de uma tarefa sejam criadas e distribuídas. 
@@ -369,15 +370,15 @@ Um ponto comum a todas as empresas que têm adotado a tecnologia NoSQL são os p
 
 
 
-### [4.3 MODELO RELACIONAL](#sumario) <a name="22"></a>
+### [4.3 MODELO RELACIONAL](#sumario) <a name="relacional"></a>
 
 Figura 13 - Modelo relacional
 
 Fonte: Os autores.
 
 
-### [4.4 ESBOÇO DE CONSULTAS COM SQL DE ACORDO COM AS NECESSIDADES DOS PARTICIPANTES DO PROCESSO](#sumario) <a name="23"></a>
-
+### [4.4 ESBOÇO DE CONSULTAS COM SQL DE ACORDO COM AS NECESSIDADES DOS PARTICIPANTES DO PROCESSO](#sumario) <a name="consultaSQL"></a>
+```
 Quantos Animais estão cadastrados
 SELECT
     COUNT(id)
@@ -385,12 +386,12 @@ FROM
     animais;
 
 
-
 Quantas ONGs estão cadastradas
 SELECT
     COUNT(id)
 FROM
     ONGS;
+    
 
 Quantos Animais estão em tratamento
 SELECT
@@ -399,15 +400,15 @@ FROM
     animais
 WHERE
  tratamento;
-
-### [5 RELATÓRIOS ANALÍTICOS](#sumario) <a name="24"></a>
+```
+### [5 RELATÓRIOS ANALÍTICOS](#sumario) <a name="relatorios"></a>
 
 Considerando as necessidades de informações das diversas partes interessadas nos processos eleitos, desenvolvam, com o apoio da ferramenta empregada na disciplina, relatórios úteis para o controle dos processos e a tomada de decisão.
 Cada processo identificado deve possuir, no mínimo, um relatório analítico associado. Os relatórios devem utilizar os recursos de filtros, agregadores, agrupadores e ordenação disponibilizados pela ferramenta.
 Cada relatório desenvolvido deve ter sua imagem apresentada aqui juntamente com a descrição de seus objetivos.
 
 
-### [5.1 ASSOCIAÇÃO DE COMANDOS SQL COM RELATÓRIOS ANALÍTICOS](#sumario) <a name="25"></a>
+### [5.1 ASSOCIAÇÃO DE COMANDOS SQL COM RELATÓRIOS ANALÍTICOS](#sumario) <a name="comandosSQL"></a>
 
 Após o desenvolvimento dos relatórios analíticos com o suporte da ferramenta empregada na disciplina, realizem um processo de engenharia reversa e codifiquem os comandos SQL-DML (selects) que produzem os relatórios automaticamente gerados. Preencham o formulário abaixo com esses comandos.
 Nome do Relatório Analítico
@@ -433,7 +434,7 @@ select Nome da ONG, Email, Logradouro, Bairro, Município, CEP, Data da criaçã
 
 
 
-### [6 INDICADORES DE DESEMPENHO](#sumario) <a name="26"></a>
+### [6 INDICADORES DE DESEMPENHO](#sumario) <a name="desempenho"></a>
 
 Com uma visão mais estratégica, identifiquem, a partir dos relatórios analíticos, indicadores chave de processo (KPIs – Key Process Indicator) que permitam um acompanhamento integrado dos vários processos eleitos. 
 Detalhem na tabela abaixo pelo menos cinco indicadores de desempenho identificados. Esses indicadores de desempenho devem ser descritos por meio de medidas estatísticas, conforme exemplo abaixo.
@@ -467,7 +468,7 @@ Clientes
 
 
 
-### [7 CONCLUSÃO](#sumario) <a name="27"></a>
+### [7 CONCLUSÃO](#sumario) <a name="conclusao"></a>
 
 Apresentem aqui a conclusão do trabalho que deve conter uma síntese dos principais resultados obtidos com a melhoria dos processos, uma discussão das limitações da solução proposta e sugestões de novas linhas de estudo.
 
@@ -499,7 +500,7 @@ Como um animal será adotado, cabe a pessoa que o adotou ser seu responsável. N
 
 
 
-### [REFERÊNCIAS](#sumario) <a name="28"></a>
+### [REFERÊNCIAS](#sumario) <a name="referencias"></a>
 
 Como um projeto de software não requer revisão bibliográfica, a inclusão das referências não é obrigatória. No entanto, caso vocês desejem incluir referências relacionadas às tecnologias, padrões, ou metodologias empregadas no trabalho, relacione-as de acordo com a ABNT.
 Verifiquem no link abaixo como devem ser as referências no padrão ABNT:
