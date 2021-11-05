@@ -378,6 +378,7 @@ Fonte: Os autores.
 
 ### [4.4 ESBOÇO DE CONSULTAS COM SQL DE ACORDO COM AS NECESSIDADES DOS PARTICIPANTES DO PROCESSO](#sumario) <a name="consultaSQL"></a>
 
+```SQL
 Quantos Animais estão cadastrados
 SELECT
     COUNT(id)
