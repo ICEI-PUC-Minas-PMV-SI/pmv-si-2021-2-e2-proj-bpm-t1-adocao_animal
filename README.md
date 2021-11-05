@@ -165,6 +165,7 @@ O processo se baseia em entrar em contato com as clínicas ou veterinários que 
 
 
 Figura 2 - Modelo AS-IS do processo de cadastro de clínicas veterinárias parceiras e veterinários voluntários
+![figura2](img/CadClinicasAS.png)
 Fonte: Os autores.
 
 ### [3.1.3 Processo de Cadastro de Adotantes (AS-IS)](#sumario) <a name="AdotantesAS"></a>
@@ -185,6 +186,7 @@ Sem um cadastro prévio do possível candidato para adoção, as ONGs não conse
 
 
 Figura 3 - Modelo AS-IS do processo de cadastro de adotantes
+![figura3](img/CadAdotantesAS.png)
 Fonte: Os autores.
 
 ### [3.1.4 Processo de Adoção (AS-IS)](#sumario) <a name="adocaoAS"></a>
@@ -198,6 +200,7 @@ O processo de adoção tem início com a ONG verificando os relatórios com as i
 
 
 Figura 4 - Modelo AS-IS do processo de adoção
+![figura4](img/AdocaoAS.png)
 Fonte: Os autores.
 
 ### [3.1.5 Processo de Pós-Adoção (AS-IS)](#sumario) <a name="posAS"></a>
@@ -205,7 +208,9 @@ Fonte: Os autores.
 O processo de pós-adoção tem início com o adotante enviando fotos ou vídeos do animal para a pessoa responsável na ONG. Ela analisa as fotos ou vídeos, se forem aprovadas, é sinal que o animal está sendo bem cuidado. Caso não sejam aprovadas, ela entra em contato com o adotante e pergunta se está havendo algo de errado.
 O adotante responde qual dificuldade está tendo. A pessoa responsável na ONG avalia a situação do adotante e toma as devidas providências. Na hipótese de ser algo relacionado à adaptação do animal, a própria entidade consegue resolver. Se o problema for solucionado, a ONG dá como resolvido este caso, mas se não for possível solucionar, a ONG atenta o adotante e repensa se o animal pode continuar com ele.
 Na circunstância do animal estar doente e o adotante não ter recursos para tratá-lo, a pessoa responsável na ONG entra em contato com o veterinário para dizer que um animal precisa de tratamento. O veterinário recebe o animal e o trata. Após isso, atualiza sua ficha de saúde e o libera.
+
 Figura 5 - Modelo AS-IS do processo de pós-adoção
+![figura5](img/PosAS.png)
 Fonte: Os autores.
 
 
@@ -275,6 +280,7 @@ Com o acesso público ao sistema, as pessoas envolvidas podem entrar, visualizar
 Este processo refere-se ao cadastro de ONG e Abrigo, em que possíveis organizações podem se cadastrar no sistema para disponibilizar animais para adoção, gerenciar o processo de adoção e pós-adoção, bem como interagir com os demais participantes do negócio. A organização pode realizar login no sistema e, posteriormente, alterar algum dado em seu cadastro, como também realizar a exclusão deste.
 
 Figura 6 - Modelo TO-BE do processo de cadastro de ONG e abrigo
+![figura6](img/CadOngTO.png)
 Fonte: Os autores.
 
 
@@ -288,6 +294,7 @@ Este processo refere-se ao cadastro de veterinários voluntários que podem se c
 
 
 Figura 7 - Modelo TO-BE do processo de cadastro de ONG e abrigo
+![figura7](img/CadAbrigoTO.png)
 Fonte: Os autores.
 
 ### [3.2.3 Processo de Cadastro de Animais (TO-BE)](#sumario) <a name="animaisTO"></a>
@@ -305,6 +312,7 @@ Manter um registro de todos os dados de saúde e tratamento que o animal recebeu
 
 
 Figura 8 - Modelo TO-BE do processo de cadastro de animais
+![figura8](img/CadAnimaisTO.png)
 Fonte: Os autores.
 
 ### [3.2.4 Processo de Cadastro de Adotantes (TO-BE)](#sumario) <a name="adotantesTO"></a>
@@ -312,6 +320,7 @@ Fonte: Os autores.
 Este processo refere-se ao Cadastro de Adotantes, em que possíveis candidatos podem se cadastrar no sistema para adotar um animal. O candidato pode realizar login e, posteriormente, alterar algum dado em seu cadastro, como também realizar a exclusão deste.
 
 Figura 9 - Modelo TO-BE do processo de cadastro de adotantes
+![figura9](img/CadAdotantesTO.png)
 Fonte: Os autores.
 
 ### [3.2.5 Processo de Adoção (TO-BE)](#sumario) <a name="adocaoTO"></a>
@@ -325,6 +334,7 @@ A pessoa responsável na ONG envia um comunicado para o adotante dizendo que o a
 As informações relativas ao animal, adotante, veterinário e à ONG envolvidas nessa adoção, são enviadas por e-mail pela ONG como um Termo de Comprometimento e Responsabilidade com assinatura digital para o adotante. Após o envio do e-mail, a entrega do animal é realizada da maneira escolhida, terminando o processo por completo. Com toda informação necessária sobre o animal, a esperança é de que o adotante seja comprometido e responsável.
 
 Figura 10 - Modelo TO-BE do processo adoção de animais
+![figura10](img/ProcAnimaisTO.png)
 Fonte: Os autores.
 
 
@@ -339,6 +349,7 @@ Na situação do animal estar doente, a clínica veterinária parceira recebe um
 No caso do animal não estar adaptado ou de ser uma situação diversa, a ONG recebe um aviso. A pessoa responsável na ONG visualiza a resposta e avalia a situação. Ela envia um comunicado para o adotante dizendo que gostaria de marcar um encontro para resolver a situação. Se por acaso o problema for resolvido, a pessoa responsável na ONG registra no sistema que a situação na qual o adotante estava passando foi solucionada, o processo é finalizado neste ponto. Uma vez que a devida situação não tenha sido resolvida, a pessoa responsável na ONG atenta o adotante de que talvez o animal não possa continuar sendo mantido sob seus cuidados, conforme foi prometido no termo de comprometimento. O registro dessa visita é feito no sistema como um sinal de que o adotante pode não estar cuidando muito bem do animal. O processo finaliza neste ponto.
 
 Figura 11 - Modelo TO-BE do processo de pós-adoção
+![figura11](img/ProcPosTO.png)
 Fonte: Os autores.
 
 
@@ -347,7 +358,7 @@ Fonte: Os autores.
 ### [4.1 DIAGRAMA DE ENTIDADES E RELACIONAMENTOS (DER)](#sumario) <a name="der"></a>
 
 Figura 12 - Diagrama de Entidades e Relacionamentos
-
+![figura12](img/der.png)
 Fonte: Os autores.
 
 ### [4.2 IMPACTOS DA IMPLEMENTAÇÃO EM UM BANCO DE DADOS NOSQL](#sumario) <a name="noSQL"></a>
@@ -371,7 +382,7 @@ Um ponto comum a todas as empresas que têm adotado a tecnologia NoSQL são os p
 ### [4.3 MODELO RELACIONAL](#sumario) <a name="relacional"></a>
 
 Figura 13 - Modelo relacional
-
+![figura13](img/relacional.png)
 Fonte: Os autores.
 
 
