@@ -166,8 +166,7 @@ O processo se baseia em entrar em contato com as clínicas ou veterinários que 
 
 Figura 2 - Modelo AS-IS do processo de cadastro de clínicas veterinárias parceiras e veterinários voluntários
 ![figura2](img/CadClinicasAS.png)
-
-Fonte: Os autores.
+  Fonte: Os autores.
 
 ### [3.1.3 Processo de Cadastro de Adotantes (AS-IS)](#sumario) <a name="AdotantesAS"></a>
 
