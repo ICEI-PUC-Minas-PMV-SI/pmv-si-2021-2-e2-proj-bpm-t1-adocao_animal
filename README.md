@@ -5,7 +5,7 @@
 `APLICAÇÕES PARA PROCESSOS DE NEGÓCIOS - TURMA 01`
 
 `2021/2`
-
+![teste](img/image.png) .
 Trabalho apresentado à disciplina Aplicações para Processos de Negócios do Curso de Bacharelado em Sistemas de Informação da Pontifícia Universidade Católica de Minas Gerais.
 
 ## Integrantes
@@ -325,9 +325,6 @@ As informações relativas ao animal, adotante, veterinário e à ONG envolvidas
 
 Figura 10 - Modelo TO-BE do processo adoção de animais
 Fonte: Os autores.
-
-
-
 
 
 
