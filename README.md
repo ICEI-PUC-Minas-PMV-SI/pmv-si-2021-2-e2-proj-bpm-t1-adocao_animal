@@ -232,8 +232,7 @@ Fonte: Os autores.
 
 ### [3.2 MODELAGEM DOS PROCESSOS APRIMORADOS (TO-BE)](#sumario) <a name="modelagemTO"></a>
 
-<p>Visando sanar as dores do modelo de negócio atual, tem-se como objetivo, através de recursos tecnológicos, criar o Sistema Integrado de Controle de Adoção de Animais, com as seguintes características:
-</p>
+Visando sanar as dores do modelo de negócio atual, tem-se como objetivo, através de recursos tecnológicos, criar o Sistema Integrado de Controle de Adoção de Animais, com as seguintes características:
 > - Gerir as pessoas que têm interesse em adotar animais;
 > - Realizar a integração entre ONGs, parceiros e comunidade;
 > - Fazer o acompanhamento preventivo e preditivo dos animais;
@@ -250,7 +249,7 @@ Inicialmente, o sistema conta com os seguintes recursos:
 > - Funcionalidades de administração do sistema concedidas à pessoa responsável na ONG/Abrigo.  
 <p>Posteriormente, outros recursos podem ser implementados no sistema, de forma que alavanque o processo de adoção e diminua a quantidade de animais abandonados e à espera de um lar. Os participantes realizam as ações por meio digital, acessando a plataforma do Sistema Integrado de Controle de Adoção de Animais. A base de dados armazena os dados dos animais, adotantes, veterinários e da ONG.</p>
 <p>A utilização do sistema é uma melhoria significativa no negócio, tendo em vista que anteriormente, a comunicação entre as partes era feita manualmente (sem a utilização de um sistema integrado), como o contato por telefone ou celular. A planilha de animais, a tabela de adotantes aptos e as clínicas veterinárias parceiras, por exemplo, eram informações privadas das organizações de proteção animal.</p>
-<p>Com o acesso público ao sistema, as pessoas envolvidas podem entrar, visualizar e redigir comentários, realizar pesquisas, enviar arquivos e interagir com os participantes do negócio.</p>
+<p>Com o acesso público ao sistema, as pessoas envolvidas podem entrar, visualizar e redigir comentários, realizar pesquisas, enviar arquivos e interagir com os participantes do negócio.<p>
 
 
 
