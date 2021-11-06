@@ -63,11 +63,11 @@ Palavras-chave: Adoção. ONGs. Animais.
 
 ### [1 INTRODUÇÃO](#sumario) <a name="introducao"></a>
 
-A escolha do tema do projeto nasceu durante discussões referentes aos temas sugeridos para o projeto Aplicações para Processos de Negócios. O grupo vislumbrou a oportunidade de desenvolver uma plataforma que fomente e facilite o processo de adoção de animais abandonados.
-Segundo publicação da ANDA, Agência de Notícias de Direitos Animais, no site da Jusbrasil, “A Organização Mundial da Saúde estima que só no Brasil existam mais de 30 milhões de animais abandonados, entre 10 milhões de gatos e 20 milhões de cães.” (ANDA, 2013). Atualmente, a internet é a principal fonte de divulgação de eventos de adoção de animais, como também de protestos contra as injúrias que os animais sofrem.
-Em uma sociedade digital, na qual existem vários aplicativos que utilizam algoritmos para análise de perfis de usuários, tomamos como exemplo um aplicativo de relacionamento de pessoas. Nesse aplicativo, tem uma funcionalidade denominada match (palavra de origem inglesa, usada como verbo nessa ocasião, que pode significar: combinar, igualar, corresponder), com o sentido de definir o melhor casal, utilizada através de pesquisas feitas pelos usuários. Isso nos levou a um questionamento até mesmo simplório. Por que não aplicar o mesmo conceito para a adoção de animais?
-Dentre os objetivos do projeto, um deles envolve o desenvolvimento de uma plataforma de dados que possibilita a criação de perfis completos de adotantes, que por sua vez podem escolher o perfil de um animal disponível para adoção. Dessa forma, criando o match necessário para uma adoção assertiva, eliminando assim o risco de novo abandono. A proposta também busca remover empecilhos que possam dificultar o processo de adoção.
-A facilidade tecnológica atual propicia o acesso rápido à informação, seja por meio de sites, redes sociais e aplicativos. O intuito é desenvolver um sistema que tenha uma base de dados baseada nos três pilares da informação: confidencialidade, integridade e disponibilidade. Assim, as partes envolvidas terão um recurso em mãos, disponível a qualquer momento e sem a necessidade de se deslocar por vários locais, somente quando for indispensável.
+&emsp;&emsp;A escolha do tema do projeto nasceu durante discussões referentes aos temas sugeridos para o projeto Aplicações para Processos de Negócios. O grupo vislumbrou a oportunidade de desenvolver uma plataforma que fomente e facilite o processo de adoção de animais abandonados.</br>
+&emsp;&emsp;Segundo publicação da ANDA, Agência de Notícias de Direitos Animais, no site da Jusbrasil, “A Organização Mundial da Saúde estima que só no Brasil existam mais de 30 milhões de animais abandonados, entre 10 milhões de gatos e 20 milhões de cães.” (ANDA, 2013). Atualmente, a internet é a principal fonte de divulgação de eventos de adoção de animais, como também de protestos contra as injúrias que os animais sofrem.</br>
+&emsp;&emsp;Em uma sociedade digital, na qual existem vários aplicativos que utilizam algoritmos para análise de perfis de usuários, tomamos como exemplo um aplicativo de relacionamento de pessoas. Nesse aplicativo, tem uma funcionalidade denominada match (palavra de origem inglesa, usada como verbo nessa ocasião, que pode significar: combinar, igualar, corresponder), com o sentido de definir o melhor casal, utilizada através de pesquisas feitas pelos usuários. Isso nos levou a um questionamento até mesmo simplório. Por que não aplicar o mesmo conceito para a adoção de animais?</br>
+&emsp;&emsp;Dentre os objetivos do projeto, um deles envolve o desenvolvimento de uma plataforma de dados que possibilita a criação de perfis completos de adotantes, que por sua vez podem escolher o perfil de um animal disponível para adoção. Dessa forma, criando o match necessário para uma adoção assertiva, eliminando assim o risco de novo abandono. A proposta também busca remover empecilhos que possam dificultar o processo de adoção.</br>
+&emsp;&emsp;A facilidade tecnológica atual propicia o acesso rápido à informação, seja por meio de sites, redes sociais e aplicativos. O intuito é desenvolver um sistema que tenha uma base de dados baseada nos três pilares da informação: confidencialidade, integridade e disponibilidade. Assim, as partes envolvidas terão um recurso em mãos, disponível a qualquer momento e sem a necessidade de se deslocar por vários locais, somente quando for indispensável.
 
 
 
@@ -117,9 +117,9 @@ Em suma, o desenvolvimento deste sistema não tem apenas o objetivo de ser mais 
 ### [2 PARTICIPANTES DO PROCESSO DE NEGÓCIO](#sumario) <a name="participantes"></a>
 
 Os participantes do negócio de adoção de animais, também denominado stakeholders, cumprem diferentes papéis, desempenhando funções que influenciam e interessam a todos os processos, de forma que afetam as atividades diretamente. Eles são caracterizados da seguinte maneira:
-ONG - entidade que não tem fins lucrativos e pratica ações solidárias para um público específico, nessa ocasião, a proteção animal. Ela pode atuar em conjunto com abrigos de animais. Desempenha a função de cadastrar os animais disponíveis para adoção e de manter o controle deles durante os processos.
-Adotante - pessoa que deseja adotar um animal. Desempenha a função de pesquisar o seu animal de interesse, assim como de ser aprovado pelas organizações que cuidam do animal. O adotante deve também informar sobre as condições do animal no processo de pós-adoção, para que o controle do animal seja permanentemente feito.
-Clínica Veterinária Parceira e Veterinário Voluntário - geralmente uma ONG ou um abrigo de proteção de animais, não têm condições financeiras para se sustentar, deste modo, fazem parcerias com empresas ou com profissionais autônomos que podem tratar da saúde dos animais. Assim, esses participantes têm um importante papel no negócio, pois são responsáveis por analisar como está a saúde de cada animal na sua chegada a essas organizações, além de efetuar algum tratamento neles, quando for solicitado.
+> - ONG - entidade que não tem fins lucrativos e pratica ações solidárias para um público específico, nessa ocasião, a proteção animal. Ela pode atuar em conjunto com abrigos de animais. Desempenha a função de cadastrar os animais disponíveis para adoção e de manter o controle deles durante os processos.
+> - Adotante - pessoa que deseja adotar um animal. Desempenha a função de pesquisar o seu animal de interesse, assim como de ser aprovado pelas organizações que cuidam do animal. O adotante deve também informar sobre as condições do animal no processo de pós-adoção, para que o controle do animal seja permanentemente feito.
+> - Clínica Veterinária Parceira e Veterinário Voluntário - geralmente uma ONG ou um abrigo de proteção de animais, não têm condições financeiras para se sustentar, deste modo, fazem parcerias com empresas ou com profissionais autônomos que podem tratar da saúde dos animais. Assim, esses participantes têm um importante papel no negócio, pois são responsáveis por analisar como está a saúde de cada animal na sua chegada a essas organizações, além de efetuar algum tratamento neles, quando for solicitado.
 
 
 
@@ -233,23 +233,23 @@ Fonte: Os autores.
 ### [3.2 MODELAGEM DOS PROCESSOS APRIMORADOS (TO-BE)](#sumario) <a name="modelagemTO"></a>
 
 Visando sanar as dores do modelo de negócio atual, tem-se como objetivo, através de recursos tecnológicos, criar o Sistema Integrado de Controle de Adoção de Animais, com as seguintes características:
-Gerir as pessoas que têm interesse em adotar animais;
-Realizar a integração entre ONGs, parceiros e comunidade;
-Fazer o acompanhamento preventivo e preditivo dos animais;
-Gerar maior escalabilidade no processo de adoção;
-Acelerar o processo de adoção.
+> - Gerir as pessoas que têm interesse em adotar animais;
+> - Realizar a integração entre ONGs, parceiros e comunidade;
+> - Fazer o acompanhamento preventivo e preditivo dos animais;
+> - Gerar maior escalabilidade no processo de adoção;
+> - Acelerar o processo de adoção.
 Inicialmente, o sistema conta com os seguintes recursos:
-Cadastro de ONGs e Abrigos com o objetivo de que desenvolvam o papel de administradoras e organizadoras do negócio;
-Cadastro de adotantes com o objetivo de aproximá-los das entidades de adoção de animais;
-Cadastro de animais com o objetivo de dar maior visibilidade às pessoas interessadas em adotá-los;
-Controle da saúde do animal para que seja possível fazer um check-up e acompanhamento do animal até que o mesmo tenha a saúde necessária para ir para um lar adotivo;
-Funcionalidades que visam dar maior escalabilidade e celeridade ao processo de adoção;
-Funcionalidades para acompanhamento preditivo de animais que permitem o controle e acompanhamento da saúde e dos cuidados do animal;
-Funcionalidades para acompanhar o adotante, analisando se este está seguindo as recomendações para o melhor cuidado do animal;
-Funcionalidades de administração do sistema concedidas à pessoa responsável na ONG/Abrigo.
-Posteriormente, outros recursos podem ser implementados no sistema, de forma que alavanque o processo de adoção e diminua a quantidade de animais abandonados e à espera de um lar. Os participantes realizam as ações por meio digital, acessando a plataforma do Sistema Integrado de Controle de Adoção de Animais. A base de dados armazena os dados dos animais, adotantes, veterinários e da ONG.
-A utilização do sistema é uma melhoria significativa no negócio, tendo em vista que anteriormente, a comunicação entre as partes era feita manualmente (sem a utilização de um sistema integrado), como o contato por telefone ou celular. A planilha de animais, a tabela de adotantes aptos e as clínicas veterinárias parceiras, por exemplo, eram informações privadas das organizações de proteção animal.
-Com o acesso público ao sistema, as pessoas envolvidas podem entrar, visualizar e redigir comentários, realizar pesquisas, enviar arquivos e interagir com os participantes do negócio.
+> - Cadastro de ONGs e Abrigos com o objetivo de que desenvolvam o papel de administradoras e organizadoras do negócio;
+> - Cadastro de adotantes com o objetivo de aproximá-los das entidades de adoção de animais;
+> - Cadastro de animais com o objetivo de dar maior visibilidade às pessoas interessadas em adotá-los;
+> - Controle da saúde do animal para que seja possível fazer um check-up e acompanhamento do animal até que o mesmo tenha a saúde necessária para ir para um lar adotivo;
+> - Funcionalidades que visam dar maior escalabilidade e celeridade ao processo de adoção;
+> - Funcionalidades para acompanhamento preditivo de animais que permitem o controle e acompanhamento da saúde e dos cuidados do animal;
+> - Funcionalidades para acompanhar o adotante, analisando se este está seguindo as recomendações para o melhor cuidado do animal;
+> - Funcionalidades de administração do sistema concedidas à pessoa responsável na ONG/Abrigo.  
+<p>Posteriormente, outros recursos podem ser implementados no sistema, de forma que alavanque o processo de adoção e diminua a quantidade de animais abandonados e à espera de um lar. Os participantes realizam as ações por meio digital, acessando a plataforma do Sistema Integrado de Controle de Adoção de Animais. A base de dados armazena os dados dos animais, adotantes, veterinários e da ONG.</p>
+<p>A utilização do sistema é uma melhoria significativa no negócio, tendo em vista que anteriormente, a comunicação entre as partes era feita manualmente (sem a utilização de um sistema integrado), como o contato por telefone ou celular. A planilha de animais, a tabela de adotantes aptos e as clínicas veterinárias parceiras, por exemplo, eram informações privadas das organizações de proteção animal.</p>
+<p>Com o acesso público ao sistema, as pessoas envolvidas podem entrar, visualizar e redigir comentários, realizar pesquisas, enviar arquivos e interagir com os participantes do negócio.<p>
 
 
 
@@ -302,9 +302,9 @@ Fonte: Os autores.
 O processo de cadastro de animais consiste em acolher e oferecer para os animais condições favoráveis de sobrevivência e avaliação completa de saúde do animal. Oferecer tratamentos para os que precisam de suporte, para entregar um animal em perfeitas condições de saúde para os futuros adotantes.  
 O objetivo da proposta é para que assim que for comunicado à ONG a doação do animal, seja resgatado ou doado. A ONG por meio de um aplicativo consegue comunicar os veterinários parceiros e consegue agendar uma consulta  para avaliação completa da saúde do animal. Após a avaliação o veterinário  responde se o animal está apto ou não para adoção e o sistema já encaminha os dados do animal e um foto para a divulgação no site e comunica todos os adotantes cadastrados sobre a chegada do novo animal apto para adoção.  
 Processos Automatizados:
-Notificar os veterinários parceiros sobre a chegada do animal para realizar a consulta;
-Notificar os adotantes cadastrados sobre o novo animal apto para adoção;
-Manter um registro de todos os dados de saúde e tratamento que o animal recebeu desde a chegada.
+> - Notificar os veterinários parceiros sobre a chegada do animal para realizar a consulta;
+> - Notificar os adotantes cadastrados sobre o novo animal apto para adoção;
+> - Manter um registro de todos os dados de saúde e tratamento que o animal recebeu desde a chegada.
 
 
 
@@ -389,22 +389,25 @@ Fonte: Os autores.
 
 ### [4.4 ESBOÇO DE CONSULTAS COM SQL DE ACORDO COM AS NECESSIDADES DOS PARTICIPANTES DO PROCESSO](#sumario) <a name="consultaSQL"></a>
 
+
+> - Quantos Animais estão cadastrados
 ```SQL
-Quantos Animais estão cadastrados
 SELECT
     COUNT(id)
 FROM
     animais;
+```
 
-
-Quantas ONGs estão cadastradas
+> - Quantas ONGs estão cadastradas
+```SQL
 SELECT
     COUNT(id)
 FROM
     ONGS;
-    
+```
 
-Quantos Animais estão em tratamento
+> - Quantos Animais estão em tratamento
+```SQL
 SELECT
     COUNT(id)
 FROM
