@@ -246,8 +246,8 @@ Inicialmente, o sistema conta com os seguintes recursos:
 > - Funcionalidades que visam dar maior escalabilidade e celeridade ao processo de adoção;
 > - Funcionalidades para acompanhamento preditivo de animais que permitem o controle e acompanhamento da saúde e dos cuidados do animal;
 > - Funcionalidades para acompanhar o adotante, analisando se este está seguindo as recomendações para o melhor cuidado do animal;
-> - Funcionalidades de administração do sistema concedidas à pessoa responsável na ONG/Abrigo.
-  Posteriormente, outros recursos podem ser implementados no sistema, de forma que alavanque o processo de adoção e diminua a quantidade de animais abandonados e à espera de um lar. Os participantes realizam as ações por meio digital, acessando a plataforma do Sistema Integrado de Controle de Adoção de Animais. A base de dados armazena os dados dos animais, adotantes, veterinários e da ONG.
+> - Funcionalidades de administração do sistema concedidas à pessoa responsável na ONG/Abrigo.  
+> Posteriormente, outros recursos podem ser implementados no sistema, de forma que alavanque o processo de adoção e diminua a quantidade de animais abandonados e à espera de um lar. Os participantes realizam as ações por meio digital, acessando a plataforma do Sistema Integrado de Controle de Adoção de Animais. A base de dados armazena os dados dos animais, adotantes, veterinários e da ONG.
 A utilização do sistema é uma melhoria significativa no negócio, tendo em vista que anteriormente, a comunicação entre as partes era feita manualmente (sem a utilização de um sistema integrado), como o contato por telefone ou celular. A planilha de animais, a tabela de adotantes aptos e as clínicas veterinárias parceiras, por exemplo, eram informações privadas das organizações de proteção animal.
 Com o acesso público ao sistema, as pessoas envolvidas podem entrar, visualizar e redigir comentários, realizar pesquisas, enviar arquivos e interagir com os participantes do negócio.
 
