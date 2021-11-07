@@ -316,30 +316,27 @@ select Nome da ONG, Email, Logradouro, Bairro, Município, CEP, Data da criaçã
 
 &emsp;&emsp;Com uma visão mais estratégica, identifiquem, a partir dos relatórios analíticos, indicadores chave de processo (KPIs – Key Process Indicator) que permitam um acompanhamento integrado dos vários processos eleitos.  
 &emsp;&emsp;Detalhem na tabela abaixo pelo menos **cinco indicadores de desempenho** identificados. Esses indicadores de desempenho devem ser **descritos por meio de medidas estatísticas**, conforme exemplo abaixo.  
-Indicador
-Objetivo
-Descrição
-Fórmula de cálculo
-Fontes de dados
-Perspectiva
-Percentual de reclamações
-Avaliar quantitativamente as reclamações
-Percentual de reclamações em relação ao total de atendimentos
-reclamaçõesqte total de atendimentos *100
-Tabela reclamações
-Aprendizado e Crescimento
-Taxa de Requisições abertas
-Melhorar a prestação de serviços medindo a porcentagem de requisições
-Mede % de requisições atendidas na semana
-nº req finalizadasnº req abertas *100
-Tabela requisições
-Processos internos
-Taxa de entrega de material
-Manter controle sobre os materiais que estão sendo entregues 
-Mede % de material entregue dentro do mês
-qte materiais entreguesqte materiais solicitados*100
-Tabela pedidos
-Clientes
+
+Indicador | Objetivo | Descrição | Fórmula de cálculo | Fontes de dados | Perspectiva
+--------- | -------- | --------- | ------------------ | --------------- | ----------
+Percentual de reclamações | Avaliar quantitativamente as reclamações | Percentual de reclamações em relação ao total de atendimentos | FORMULA | Tabela reclamações | Aprendizado e Crescimento |
+Taxa de Requisições abertas | Melhorar a prestação de serviços medindo a porcentagem de requisições | Mede % de requisições atendidas na semana | FORMULA| Tabela requisições | Processos internos |
+Taxa de entrega de material | Manter controle sobre os materiais que estão sendo entregues  | Mede % de material entregue dentro do mês | FORMULA | Tabela pedidos | Clientes |
+Exemplo 5 | R$ 8              | Exemplo 5 | R$ 8              | R$ 8              | R$ 8              |
+Exemplo 6 | R$ 8              | Exemplo 6 | R$ 8              | R$ 8              | R$ 8              |
+
+
+
+
+
+
+
+
+
+
+
+
+
 <p>
 
 ### [7 CONCLUSÃO](#sumario) <a name="conclusao"></a>
