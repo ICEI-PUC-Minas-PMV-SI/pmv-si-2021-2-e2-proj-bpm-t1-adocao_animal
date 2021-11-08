@@ -303,11 +303,11 @@ Cada processo identificado deve possuir, no mínimo, um relatório analítico as
 Nome do Relatório Analítico
 
 >+ **Relatório mensal Cadastro de ONG-Abrigo-Tabela**
->    - select Nome da ONG, Email, Logradouro, Bairro, Município, CEP, Data da criação, Administrador, COUNT(animal) from (Adoção Animal - ONG) order by Nome
+>   
 >+ **Relatório mensal Cadastro de ONG-Abrigo-Gráfico de barras**
->    - select Nome da ONG, Email, Logradouro, Bairro, Município, CEP, Data da criação, Administrador, COUNT(animal) from (Adoção Animal - ONG) order by Nome
+>    
 >+ **Relatório mensal Cadastro de ONG-Abrigo-Gráfico de pizza**
->    - select Nome da ONG, Email, Logradouro, Bairro, Município, CEP, Data da criação, Administrador, COUNT(animal) from (Adoção Animal - ONG) order by Nome<p>
+>    
 
     
     
