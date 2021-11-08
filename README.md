@@ -302,7 +302,7 @@ Cada processo identificado deve possuir, no mínimo, um relatório analítico as
 
 Nome do Relatório Analítico
 
-> **Relatório Adoção de Animais-(R1) ONG_ABRIGO-tipoTabela-Somatória de animais por ONG_Abrigo**
+> **Relatório Adoção de Animais-(R1) ONG_ABRIGO-tipoTabela-Somatória de animais por ONG_Abrigo-Ordenado por Nome**
 >    ![figura14](img/relatório_ONG_Abrigo_mensaltabela.png)<p>
 > **Relatório Adoção de Animais-(R1) ONG_ABRIGO-tipoGráficobarra-Somatória de animais por ONG_Abrigo**
 >    ![figura15](img/relatório_ONG_Abrigo_gráficobarra.png)<p>
