@@ -306,11 +306,11 @@ Cada processo identificado deve possuir, no mínimo, um relatório analítico as
 
 Nome do Relatório Analítico
 Comando SQL-DML (SELECT)
-Relatório mensal Cadastro de ONG-Abrigo-Tabela
++ Relatório mensal Cadastro de ONG-Abrigo-Tabela
 select Nome da ONG, Email, Logradouro, Bairro, Município, CEP, Data da criação, Administrador, COUNT(animal) from (Adoção Animal - ONG) order by Nome
-Relatório mensal Cadastro de ONG-Abrigo-Gráfico de barras
++ Relatório mensal Cadastro de ONG-Abrigo-Gráfico de barras
 select Nome da ONG, Email, Logradouro, Bairro, Município, CEP, Data da criação, Administrador, COUNT(animal) from (Adoção Animal - ONG) order by Nome
-Relatório mensal Cadastro de ONG-Abrigo-Gráfico de pizza
++ Relatório mensal Cadastro de ONG-Abrigo-Gráfico de pizza
 select Nome da ONG, Email, Logradouro, Bairro, Município, CEP, Data da criação, Administrador, COUNT(animal) from (Adoção Animal - ONG) order by Nome<p>
 
 ### [6 INDICADORES DE DESEMPENHO](#sumario) <a name="indicadores"></a>
