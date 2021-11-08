@@ -303,6 +303,7 @@ Cada processo identificado deve possuir, no mínimo, um relatório analítico as
 ### [5.1 ASSOCIAÇÃO DE COMANDOS SQL COM RELATÓRIOS ANALÍTICOS](#sumario) <a name="comandosSQL"></a>
 
 &emsp;&emsp;Após o desenvolvimento dos relatórios analíticos com o suporte da ferramenta empregada na disciplina, realizem um processo de engenharia reversa e codifiquem os comandos SQL-DML (selects) que produzem os relatórios automaticamente gerados. Preencham o formulário abaixo com esses comandos.  
+
 Nome do Relatório Analítico
 Comando SQL-DML (SELECT)
 Relatório mensal Cadastro de ONG-Abrigo-Tabela
