@@ -302,11 +302,11 @@ Cada processo identificado deve possuir, no mínimo, um relatório analítico as
 
 Nome do Relatório Analítico
 
->+ **Relatório mensal Cadastro de ONG-Abrigo-Tabela**
->   ![figura14](img/relatório_ONG_Abrigo_mensaltabela.png)<p>
->+ **Relatório mensal Cadastro de ONG-Abrigo-Gráfico de barras**
+>+ **Relatório Cadastro de ONG-Abrigo-tipoTabela-Somatória de animais por ONG_Abrigo**
+>    ![figura14](img/relatório_ONG_Abrigo_mensaltabela.png)<p>
+>+ **Relatório Cadastro de ONG-Abrigo-tipoGráficobarra-Somatória de animais por ONG_Abrigo**
 >    ![figura15](img/relatório_ONG_Abrigo_gráficobarra.png)<p>
->+ **Relatório mensal Cadastro de ONG-Abrigo-Gráfico de pizza**
+>+ **Relatório Cadastro de ONG-Abrigo-tipoGráficopizza-Somatória de animais por ONG_Abrigo**
 >    ![figura16](img/relatório_ONG_Abrigo_gráficopizza.png)<p>
 
     
