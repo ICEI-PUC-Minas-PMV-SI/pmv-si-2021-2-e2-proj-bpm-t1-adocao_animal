@@ -300,6 +300,17 @@ WHERE
 Cada processo identificado deve possuir, no mínimo, um relatório analítico associado. Os relatórios devem utilizar os recursos de filtros, agregadores, agrupadores e ordenação disponibilizados pela ferramenta.  
 &emsp;&emsp;Cada relatório desenvolvido deve ter sua imagem apresentada aqui juntamente com a descrição de seus objetivos.  
 
+Nome do Relatório Analítico
+Comando SQL-DML (SELECT)
+>+ **Relatório mensal Cadastro de ONG-Abrigo-Tabela**
+>    - select Nome da ONG, Email, Logradouro, Bairro, Município, CEP, Data da criação, Administrador, COUNT(animal) from (Adoção Animal - ONG) order by Nome
+>+ **Relatório mensal Cadastro de ONG-Abrigo-Gráfico de barras**
+>    - select Nome da ONG, Email, Logradouro, Bairro, Município, CEP, Data da criação, Administrador, COUNT(animal) from (Adoção Animal - ONG) order by Nome
+>+ **Relatório mensal Cadastro de ONG-Abrigo-Gráfico de pizza**
+>    - select Nome da ONG, Email, Logradouro, Bairro, Município, CEP, Data da criação, Administrador, COUNT(animal) from (Adoção Animal - ONG) order by Nome<p>
+
+    
+    
 ### [5.1 ASSOCIAÇÃO DE COMANDOS SQL COM RELATÓRIOS ANALÍTICOS](#sumario) <a name="comandosSQL"></a>
 
 &emsp;&emsp;Após o desenvolvimento dos relatórios analíticos com o suporte da ferramenta empregada na disciplina, realizem um processo de engenharia reversa e codifiquem os comandos SQL-DML (selects) que produzem os relatórios automaticamente gerados. Preencham o formulário abaixo com esses comandos.  
