@@ -301,7 +301,7 @@ Cada processo identificado deve possuir, no mínimo, um relatório analítico as
 &emsp;&emsp;Cada relatório desenvolvido deve ter sua imagem apresentada aqui juntamente com a descrição de seus objetivos.  
 
 Nome do Relatório Analítico
-Comando SQL-DML (SELECT)
+
 >+ **Relatório mensal Cadastro de ONG-Abrigo-Tabela**
 >    - select Nome da ONG, Email, Logradouro, Bairro, Município, CEP, Data da criação, Administrador, COUNT(animal) from (Adoção Animal - ONG) order by Nome
 >+ **Relatório mensal Cadastro de ONG-Abrigo-Gráfico de barras**
