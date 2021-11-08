@@ -306,7 +306,7 @@ Nome do Relatório Analítico
 >    ![figura14](img/relatório_ONG_Abrigo_mensaltabela.png)<p>
 > **Relatório Cadastro de ONG-Abrigo-tipoGráficobarra-Somatória de animais por ONG_Abrigo**
 >    ![figura15](img/relatório_ONG_Abrigo_gráficobarra.png)<p>
-> **Relatório Cadastro de ONG-Abrigo-tipoGráficopizza-Somatória de animais por ONG_Abrigo**
+> **Relatório Cadastro de ONG-Abrigo-tipoGráficopizza-Somatória de animais por ONG_Abrigo em %**
 >    ![figura16](img/relatório_ONG_Abrigo_gráficopizza.png)<p>
 
     
