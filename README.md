@@ -309,6 +309,12 @@ Nome do Relatório Analítico
 > **Relatório Adoção de Animais-(R1) ONG_ABRIGO-tipoGráficopizza-Somatória de animais por ONG_Abrigo em %**
 >    ![figura16](img/relatório_ONG_Abrigo_gráficopizza.png)<p>
 
+> **Relatório Adoção de Animais-(R2) VETERINÁRIO-tipoTabela-Somatória de animais por (R2) VETERINÁRIO-Ordenado por Nome**
+>    ![figura14](img/relatório_(R2) VETERINÁRIO_mensaltabela.png)<p>
+> **Relatório Adoção de Animais-(R2) VETERINÁRIO-tipoGráficobarra-Somatória de animais por (R2) VETERINÁRIO**
+>    ![figura15](img/relatório_(R2) VETERINÁRIO_gráficobarra.png)<p>
+> **Relatório Adoção de Animais-(R2) VETERINÁRIO-tipoGráficopizza-Somatória de animais por (R2) VETERINÁRIO em %**
+>    ![figura16](img/relatório_(R2) VETERINÁRIO_gráficopizza.png)<p>   
     
     
 ### [5.1 ASSOCIAÇÃO DE COMANDOS SQL COM RELATÓRIOS ANALÍTICOS](#sumario) <a name="comandosSQL"></a>
