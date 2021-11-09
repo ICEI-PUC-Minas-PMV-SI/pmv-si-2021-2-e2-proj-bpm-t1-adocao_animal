@@ -340,17 +340,22 @@ Comando SQL-DML (SELECT)
 
 ### [6 INDICADORES DE DESEMPENHO](#sumario) <a name="indicadores"></a>
 
-&emsp;&emsp;Com uma visão mais estratégica, identifiquem, a partir dos relatórios analíticos, indicadores chave de processo (KPIs – Key Process Indicator) que permitam um acompanhamento integrado dos vários processos eleitos.  
-&emsp;&emsp;Detalhem na tabela abaixo pelo menos **cinco indicadores de desempenho** identificados. Esses indicadores de desempenho devem ser **descritos por meio de medidas estatísticas**, conforme exemplo abaixo.  
+&emsp;&emsp;Através da analise sobre os processo TO-BE, foram eleitos os seguintes indicadores chave de processo (KPIs – Key Process Indicator):
+> - Percentual de adoções
+> - Percentual de cadastro de Animais
+> - Total de Processos de Adoção
+> - Taxa de Animais Saudáveis
+> - Taxa de Retorno de animais
+
+Esses indicadores permitam um acompanhamento integrado dos vários processos eleitos.
 
 Indicador | Objetivo | Descrição | Fórmula de cálculo | Fontes de dados | Perspectiva
 --------- | -------- | --------- | ------------------ | --------------- | ----------
-Percentual de adoções | Análise quantitativa e continua dos individuos cadastrados na base de dados comparado com as adoções efetivadas | Mede % de animais adotados(AD), levando em conta os indivíduos cadastrados(CD) na base de dados | Σ (AD)/CD * 100 | Processo de Cadastro de Adotantes e Pós-Adoção | Adotantes e Adoções |
-Percentual de cadastro de Animais | Análise quantitativa e continua referente a quantidade de animais recolhidos/doados no mês anterior(ANT) e atual(AT) | Mede o percentual de animais cadastrados e abrigados | Σ (AT)/ANT * 100 | Processo de Cadastro de Animais  | Animais |
-Total de Processos de Adoção | Avaliar quantitativamente os processos de adoção consolidados em um trimestre | Entender, através do estudo de amostragem trimestral, se a aplicação dos processos e meios para adoção estão atingindo seus objetivos | FORMULA | Processo de Adoção | Adoções realizadas |
-Taxa de Animais Saudáveis | Avaliar as condições relacionadas a saúde dos animais recolhidos e/ou doados. | Analizar o percentual de animais que requerem tratamento, para entender o meio ambiente regional onde vivem e disponibilizar esses dados para os orgão responsáveis pelo controle de zoonoses. | FORMULA | Processo de Cadastro de Animais | Tratamentos |
-Taxa de Animais em tratamento | Avaliar o percentual de animais que necessitam de qualquer tipo de tratamento | Com a obtenção dos dados de animais que requerem tratamento, avaliar a necessidade de se buscar parcerias com novas clínicas e/ou veterinários. | FORMULA | Processo de Cadastro de Veterinário | Parceiros |
-Taxa de Retorno de animais | Avaliar quantitativamente os processos onde ocorreu o retorno/cancelamento da adoção | Buscar entender o porque do cancelamento e/ou também, a devolução após o adotante já se encontrar de posse do animal | FORMULA | Tabela de Processo de Pós-Adoção | Resultados |
+Percentual de adoções | Análise quantitativa e continua dos individuos cadastrados na base de dados comparado com as adoções efetivadas | Mede % de animais adotados, levando em conta os indivíduos cadastrados na base de dados | cadastro_de_adotrantes / pos_adocao * 100 | Processo de Cadastro de Adotantes e Pós-Adoção | Adotantes e Adoções |
+Percentual de cadastro de Animais | Análise quantitativa e continua referente a quantidade de animais recolhidos/doados no mês anterior e atual | Mede o percentual de animais cadastrados e abrigados | mes_atual / mes_anterior * 100 | Processo de Cadastro de Animais  | Entrada de animais |
+Total de Processos de Adoção | Avaliar quantitativamente os processos de adoções consolidadas no trimestre | Através do estudo de amostragem trimestral, entender se a aplicação dos processos e meios para adoção estão atingindo seus objetivos | adocao_cancelada / adocao_efetivada * 100 | Processo de Pós-Adoção e Adoção | Adoções realizadas |
+Taxa de Animais Saudáveis | Avaliar as condições relacionadas a saúde dos animais recolhidos e/ou doados. | Analizar o percentual de animais que requerem tratamento, para entender o meio ambiente regional onde vivem e disponibilizar esses dados para os orgão responsáveis pelo controle de zoonoses. | requer_tratamento / animais_saldaveis * 100 | Processo de Cadastro de Animais | Tratamentos |
+Taxa de Retorno de animais | Avaliar quantitativamente os processos onde ocorreu o retorno/cancelamento da adoção | Através dessdes dados, buscar entender o porque do cancelamento e/ou também, a devolução após o adotante já se encontrar de posse do animal | animais_devolvidos / adocoes_consolidadas * 100 | Tabela de Processo de Pós-Adoção | Medição do sucesso nos processos |
 
 </br>
 
