@@ -309,12 +309,14 @@ Nome do Relatório Analítico
 > **Relatório Adoção de Animais-(R1) ONG_ABRIGO-tipoGráficopizza-Somatória de animais por ONG_Abrigo em %**
 >    ![figura16](img/relatório_ONG_Abrigo_gráficopizza.png)<p>
 
+    
 > **Relatório Adoção de Animais-(R2) VETERINÁRIO-tipoTabela-Somatória de animais por VETERINÁRIO-Ordenado por Nome**
 >    ![figura17](img/relatório_VETERINÁRIO_mensaltabela.png)<p>
 > **Relatório Adoção de Animais-(R2) VETERINÁRIO-tipoGráficobarra-Somatória de animais por VETERINÁRIO**
 >    ![figura18](img/relatório_VETERINÁRIO_gráficobarra.png)<p>
 > **Relatório Adoção de Animais-(R2)VETERINÁRIO-tipoGráficopizza-Somatória de animais por VETERINÁRIO em %**
 >    ![figura19](img/relatório_VETERINÁRIO_gráficopizza.png)<p>   
+
     
 > **Relatório Adoção de Animais-(R7) DOENÇAS CRÔNICAS-tipoTabela-Cadastro de DOENÇAS CRÔNICAS-Ordenado por Nome**
 >    ![figura20](img/relatório_DOENÇAS_CRÔNICAS_tipoTabela.png)<p>
