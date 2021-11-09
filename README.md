@@ -190,7 +190,7 @@ Fonte: Os autores.
 
 &emsp;&emsp;Este processo refere-se ao cadastro de veterinários voluntários que podem se cadastrar no sistema para se disponibilizar no tratamento dos animais disponíveis para adoção, bem como interagir com os demais participantes do negócio. Eles podem estar associados a uma clínica veterinária. O veterinário pode realizar login no sistema e, posteriormente, alterar algum dado em seu cadastro, como também realizar a exclusão deste.  
 
-Figura 7 - Modelo TO-BE do processo de cadastro de ONG e abrigo<p>
+Figura 7 - Modelo TO-BE do processo de cadastro de Veterinário<p>
 ![figura7](img/CadAbrigoTO.png)<p>
 Fonte: Os autores.  
 
@@ -331,13 +331,12 @@ Comando SQL-DML (SELECT)
 
 Indicador | Objetivo | Descrição | Fórmula de cálculo | Fontes de dados | Perspectiva
 --------- | -------- | --------- | ------------------ | --------------- | ----------
-Percentual de Adotantes cadastrados | Avaliar quantitativamente os individuos interessados em adotar um animal | Percentual de indivíduos que buscam ONGs, feiras e demais estabelecimentos que promovam processos de adoção de animais | FORMULA | Tabela Cadastro de Adotantes | Adotantes |
-Percentual de Animais cadastrados | Avaliar quantitativamente os animais disponíveis para adoção | Mede % de animais recolhidos e/ou disponibilizados para doção | FORMULA | Tabela Cadastro de Animais | Animais |
-Taxa de Animais Saudáveis | Avaliar as condições anteriores relacionadas a saúde dos animais recolhidos e/ou doados. | Entender o meio ambiente regional onde os animais estão vivento e utilizar esses dados para o combate estratégico de zoonoses. | FORMULA | Tabela Cadastro de Animais | Tratamentos |
-Taxa de Animais em tratamento | Avaliar o percentual de animais que necessitam de qualquer tipo de tratamento | Com a obtenção dos dados de animais saudáveis, utilizar o percentual de animais em tratamento para buscar, ou não, outras clínicas parceiras para tratamento | FORMULA | Tabela de Clínicass Veterinárias | Parceiros              |
-Total de Processos de Adoção | Avaliar quantitativamente os processos de adoção em andamento | Disponibilidade em tempo real da quantidade de processos de adoção ativos no momento da consulta | FORMULA | Tabel Processo de Adoção | Adoções em tempo real |
-Total Processos consolidadas | Avaliar quantitativamente os processos de adoção consolidados | Entender, através do estudo de amostragem, se a aplicação dos processos e meios para adoção estão atingindo seus objetivos | FORMULA | Tabela de Processo de Adoção | Objetivos alcançados |
-Taxa de Processos cancelados | Avaliar quantitativamente os processos onde ocorreu o retorno/cancelamento de adoção | Buscar entender o porque do cancelamento após o adotante já estar de posse do animal | FORMULA | Tabela de Processo de Pós-Adoção | Resultados |
+Percentual de adoções | Análise quantitativa e continua dos individuos cadastrados na base de dados comparado com as adoções efetivadas | Mede % de animais adotados(AD), levando em conta os indivíduos cadastrados(CD) na base de dados | Σ (AD)/CD * 100 | Processo de Cadastro de Adotantes e Pós-Adoção | Adotantes e Adoções |
+Percentual de cadastro de Animais | Análise quantitativa e continua referente a quantidade de animais recolhidos/doados no mês anterior(ANT) e atual(AT) | Mede o percentual de animais cadastrados e abrigados | Σ (AT)/ANT * 100 | Processo de Cadastro de Animais  | Animais |
+Total de Processos de Adoção | Avaliar quantitativamente os processos de adoção consolidados em um trimestre | Entender, através do estudo de amostragem trimestral, se a aplicação dos processos e meios para adoção estão atingindo seus objetivos | FORMULA | Processo de Adoção | Adoções realizadas |
+Taxa de Animais Saudáveis | Avaliar as condições relacionadas a saúde dos animais recolhidos e/ou doados. | Analizar o percentual de animais que requerem tratamento, para entender o meio ambiente regional onde vivem e disponibilizar esses dados para os orgão responsáveis pelo controle de zoonoses. | FORMULA | Processo de Cadastro de Animais | Tratamentos |
+Taxa de Animais em tratamento | Avaliar o percentual de animais que necessitam de qualquer tipo de tratamento | Com a obtenção dos dados de animais que requerem tratamento, avaliar a necessidade de se buscar parcerias com novas clínicas e/ou veterinários. | FORMULA | Processo de Cadastro de Veterinário | Parceiros |
+Taxa de Retorno de animais | Avaliar quantitativamente os processos onde ocorreu o retorno/cancelamento da adoção | Buscar entender o porque do cancelamento e/ou também, a devolução após o adotante já se encontrar de posse do animal | FORMULA | Tabela de Processo de Pós-Adoção | Resultados |
 
 </br>
 
