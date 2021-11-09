@@ -317,7 +317,7 @@ Nome do Relatório Analítico
 >    ![figura19](img/relatório_VETERINÁRIO_gráficopizza.png)<p>   
     
 > **Relatório Adoção de Animais-(R7) DOENÇAS CRÔNICAS-tipoTabela-Cadastro de DOENÇAS CRÔNICAS-Ordenado por Nome**
->    ![figura20](img/relatório_DOENÇAS_CRÔNICAS_tipotabela.png)<p>
+>    ![figura20](img/relatório_DOENÇAS_CRÔNICAS_tipoTabela.png)<p>
 > **Relatório Adoção de Animais-(R7) DOENÇAS CRÔNICAS-tipoGráficobarra-Cadastro de DOENÇAS CRÔNICAS**
 >    ![figura21](img/relatório_DOENÇAS_CRÔNICAS_gráficobarra.png)<p>
 > **Relatório Adoção de Animais-(R7) DOENÇAS CRÔNICAS-tipoGráficopizza-Cadastro de DOENÇAS CRÔNICAS em %**
