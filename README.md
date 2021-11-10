@@ -357,7 +357,7 @@ Nome do Relatório Analítico
 >    ![figura27](img/relatório_TRATAMENTO_gráficobarra.png)<p>
 > **Relatório Adoção de Animais-(R8) TRATAMENTOS-tipoGráficopizza-Relação de TRATAMENTOS em %**<p>
 >   Relatório tem como finalidade visualizar no Gráfico de pizza o Cadastro de TRATAMENTOS em Porcentagem.<p>
->    ![figura28](img/relatório_TRATAMENTO_gráficopizza.png)<p>  
+>    ![figura28](img/relatório_TRATAMENTO_gráficopizza.png)<p> 
     
  
 ### [5.1 ASSOCIAÇÃO DE COMANDOS SQL COM RELATÓRIOS ANALÍTICOS](#sumario) <a name="comandosSQL"></a>
