@@ -368,13 +368,13 @@ Nome do Relatório Analítico
     
 Comando SQL-DML (SELECT)
 
-+ **Relatório Adoção de Animais-(R1) ONG_ABRIGO-tipoTabela-Somatória de animais por ONG_Abrigo-Ordenado por Nome**
++ **Relatório Adoção de Animais-(R1) ONG_ABRIGO-tipoTabela-Somatória de animais por ONG_Abrigo-Ordenado por Nome**<p>
 ´´´SELECT Nome da ONG, Email, Logradouro, Bairro, Município, CEP, Data da criação, Administrador COUNT animal AS Quantidade FROM (Adoção Animal - ONG) GROUP BY (Data da Criação) ORDER BY Nome
 ´´´
-+ **Relatório Adoção de Animais-(R1) ONG_ABRIGO-tipoGráficobarra-Somatória de animais por ONG_Abrigo**
++ **Relatório Adoção de Animais-(R1) ONG_ABRIGO-tipoGráficobarra-Somatória de animais por ONG_Abrigo**<p>
 ´´´SELECT Nome da ONG, Email, Logradouro, Bairro, Município, CEP, Data da criação, Administrador COUNT animal AS Quantidade FROM (Adoção Animal - ONG) GROUP BY (Data da Criação) ORDER BY Nome
 ´´´
-+ **Relatório Adoção de Animais-(R1) ONG_ABRIGO-tipoGráficopizza-Somatória de animais por ONG_Abrigo em %**
++ **Relatório Adoção de Animais-(R1) ONG_ABRIGO-tipoGráficopizza-Somatória de animais por ONG_Abrigo em %**<p>
 ´´´SELECT Nome da ONG, Email, Logradouro, Bairro, Município, CEP, Data da criação, Administrador COUNT animal AS Quantidade FROM (Adoção Animal - ONG) GROUP BY (Data da Criação) ORDER BY Nome
 ´´´    
 
