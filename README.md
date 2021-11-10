@@ -311,11 +311,13 @@ Nome do Relatório Analítico
 
     
 > **Relatório Adoção de Animais-(R2) VETERINÁRIO-tipoTabela-Somatória de animais por VETERINÁRIO-Ordenado por Nome**<p>
-    Relatório tem como finalidade relacionar o Cadastro de Veterináriio de forma geral para controle.
+>   Relatório tem como finalidade relacionar o Cadastro de Veterináriio de forma geral para controle.<p>
 >    ![figura17](img/relatório_VETERINÁRIO_mensaltabela.png)<p>
 > **Relatório Adoção de Animais-(R2) VETERINÁRIO-tipoGráficobarra-Somatória de animais por VETERINÁRIO**<p>
+>   Relatório tem como finalidade visualizar no Gráfico de barra o Cadastro de Veterinário.<p>
 >    ![figura18](img/relatório_VETERINÁRIO_gráficobarra.png)<p>
 > **Relatório Adoção de Animais-(R2)VETERINÁRIO-tipoGráficopizza-Somatória de animais por VETERINÁRIO em %**<p>
+>   Relatório tem como finalidade visualizar no Gráfico de pizza o Cadastro de Veterinário.<p>
 >    ![figura19](img/relatório_VETERINÁRIO_gráficopizza.png)<p>
 
     
