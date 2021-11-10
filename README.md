@@ -338,11 +338,14 @@ Nome do Relatório Analítico
 >    ![figura22](img/relatório_ANIMAIS_gráficopizza_idade.png)<p>
 
         
-> **Relatório Adoção de Animais-(R7) DOENÇAS CRÔNICAS-tipoTabela-Cadastro de DOENÇAS CRÔNICAS-Ordenado por Nome**
+> **Relatório Adoção de Animais-(R7) DOENÇAS CRÔNICAS-tipoTabela-Cadastro de DOENÇAS CRÔNICAS-Ordenado por Nome**<p>
+>   Relatório tem como finalidade relacionar o Cadastro de Doenças Crônicas de forma geral para controle.<p> 
 >    ![figura23](img/relatório_DOENÇAS_CRÔNICAS_tipoTabela.png)<p>
-> **Relatório Adoção de Animais-(R7) DOENÇAS CRÔNICAS-tipoGráficobarra-Cadastro de DOENÇAS CRÔNICAS**
+> **Relatório Adoção de Animais-(R7) DOENÇAS CRÔNICAS-tipoGráficobarra-Cadastro de DOENÇAS CRÔNICAS**<p>
+>   Relatório tem como finalidade visualizar no Gráfico de barras o Cadastro de Doenças Crônicas.<p>
 >    ![figura24](img/relatório_DOENÇAS_CRÔNICAS_gráficobarra.png)<p>
-> **Relatório Adoção de Animais-(R7) DOENÇAS CRÔNICAS-tipoGráficopizza-Cadastro de DOENÇAS CRÔNICAS em %**
+> **Relatório Adoção de Animais-(R7) DOENÇAS CRÔNICAS-tipoGráficopizza-Cadastro de DOENÇAS CRÔNICAS em %**<p>
+>   Relatório tem como finalidade visualizar no Gráfico de barras o Cadastro de Doenças Crônicas em Porcentagem.<p>
 >    ![figura25](img/relatório_DOENÇAS_CRÔNICAS_gráficopizza.png)<p>
     
 ### [5.1 ASSOCIAÇÃO DE COMANDOS SQL COM RELATÓRIOS ANALÍTICOS](#sumario) <a name="comandosSQL"></a>
@@ -371,7 +374,7 @@ Esses indicadores permitam um acompanhamento integrado dos vários processos ele
 
 Indicador | Objetivo | Descrição | Fórmula de cálculo | Fontes de dados | Perspectiva
 --------- | -------- | --------- | ------------------ | --------------- | ----------
-Percentual de adoções | Análise quantitativa e continua dos individuos cadastrados na base de dados comparado com as adoções efetivadas | Mede % de animais adotados, levando em conta os indivíduos cadastrados na base de dados | cadastro_de_adotrantes / pos_adocao * 100 | Processo de Cadastro de Adotantes e Pós-Adoção | Adotantes e Adoções |
+Percentual de adoções | Análise quantitativa e continua dos individuos cadastrados na base de dados comparado com as adoções efetivadas | Mede % de animais adotados, levando em conta os indivíduos cadastrados na base de dados | cadastro_de_adotantes / pos_adocao * 100 | Processo de Cadastro de Adotantes e Pós-Adoção | Adotantes e Adoções |
 Percentual de cadastro de Animais | Análise quantitativa e continua referente a quantidade de animais recolhidos/doados no mês anterior e atual | Mede o percentual de animais cadastrados e abrigados | mes_atual / mes_anterior * 100 | Processo de Cadastro de Animais  | Entrada de animais |
 Total de Processos de Adoção | Avaliar quantitativamente os processos de adoções consolidadas no trimestre | Através do estudo de amostragem trimestral, entender se a aplicação dos processos e meios para adoção estão atingindo seus objetivos | adocao_cancelada / adocao_efetivada * 100 | Processo de Pós-Adoção e Adoção | Adoções realizadas |
 Taxa de Animais Saudáveis | Avaliar as condições relacionadas a saúde dos animais recolhidos e/ou doados. | Analizar o percentual de animais que requerem tratamento, para entender o meio ambiente regional onde vivem e disponibilizar esses dados para os orgão responsáveis pelo controle de zoonoses. | requer_tratamento / animais_saldaveis * 100 | Processo de Cadastro de Animais | Tratamentos |
