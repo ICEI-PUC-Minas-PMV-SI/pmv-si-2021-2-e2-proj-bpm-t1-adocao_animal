@@ -413,7 +413,7 @@ SELECT Nome, Espécie, Sexo, Idade, Porte, Cor, Personalidade, Raça, Castrado, 
 SELECT Nome, Espécie, Sexo, Idade, Porte, Cor, Personalidade, Raça, Castrado, Data em que o animal foi resatado, ONG, Veterinário>Nome, Adoção, Data da criação COUNT(Doenças Crônicas, Animal) AS Quantidade FROM (Adoção Animal - ANIMAL) ORDER BY Nome
 ```
 ## Doenças Crônicas
-    + **Relatório Adoção de Animais-(R7) DOENÇAS CRÔNICAS-tipoTabela-Cadastro de DOENÇAS CRÔNICAS-Ordenado por Nome**<p>
++ **Relatório Adoção de Animais-(R7) DOENÇAS CRÔNICAS-tipoTabela-Cadastro de DOENÇAS CRÔNICAS-Ordenado por Nome**<p>
 ```SQL
 SELECT Nome, Espécie, Animal, Data da criação FROM (Adoção Animal - Doenças Crônicas) ORDER BY Nome
 ```
