@@ -370,29 +370,31 @@ Comando SQL-DML (SELECT)
 
 + **Relatório Adoção de Animais-(R1) ONG_ABRIGO-tipoTabela-Somatória de animais por ONG_Abrigo-Ordenado por Nome**<p>
 ```SQL
-SELECT Nome da ONG, Email, Logradouro, Bairro, Município, CEP, Data da criação, Administrador COUNT animal AS Quantidade FROM (Adoção Animal - ONG) GROUP BY (Data da Criação) ORDER BY Nome
+SELECT Nome da ONG, Email, Logradouro, Bairro, Município, CEP, Data da criação, Administrador COUNT Animal AS Quantidade FROM (Adoção Animal - ONG) GROUP BY (Data da Criação) ORDER BY Nome
 ```
 + **Relatório Adoção de Animais-(R1) ONG_ABRIGO-tipoGráficobarra-Somatória de animais por ONG_Abrigo**<p>
 ```SQL
-SELECT Nome da ONG, Email, Logradouro, Bairro, Município, CEP, Data da criação, Administrador COUNT animal AS Quantidade FROM (Adoção Animal - ONG) GROUP BY (Data da Criação) ORDER BY Nome
+SELECT Nome da ONG, Email, Logradouro, Bairro, Município, CEP, Data da criação, Administrador COUNT Animal AS Quantidade FROM (Adoção Animal - ONG) GROUP BY (Data da Criação) ORDER BY Nome
 ```
 + **Relatório Adoção de Animais-(R1) ONG_ABRIGO-tipoGráficopizza-Somatória de animais por ONG_Abrigo em %**<p>
 ```SQL
-SELECT Nome da ONG, Email, Logradouro, Bairro, Município, CEP, Data da criação, Administrador COUNT animal AS Quantidade FROM (Adoção Animal - ONG) GROUP BY (Data da Criação) ORDER BY Nome
+SELECT Nome da ONG, Email, Logradouro, Bairro, Município, CEP, Data da criação, Administrador COUNT Animal AS Quantidade FROM (Adoção Animal - ONG) GROUP BY (Data da Criação) ORDER BY Nome
 ```    
+>
 + **Relatório Adoção de Animais-(R2) VETERINÁRIO-tipoTabela-Somatória de animais por VETERINÁRIO-Ordenado por Nome**<p>
 ```SQL
-SELECT Nome da ONG, Email, Logradouro, Bairro, Município, CEP, Data da criação, Administrador COUNT animal AS Quantidade FROM (Adoção Animal - ONG) GROUP BY (Data da Criação) ORDER BY Nome
+SELECT Nome, CRMV, Especialidade, Email, Logradouro, Bairro, Município, CEP, Data da Criação, Animal COUNT Animal AS Quantidade FROM (Adoção Animal - VETERINÁRIO) ORDER BY Nome
 ```
 + **Relatório Adoção de Animais-(R2) VETERINÁRIO-tipoGráficobarra-Somatória de animais por VETERINÁRIO**<p>
 ```SQL
-SELECT Nome da ONG, Email, Logradouro, Bairro, Município, CEP, Data da criação, Administrador COUNT animal AS Quantidade FROM (Adoção Animal - ONG) GROUP BY (Data da Criação) ORDER BY Nome
+SELECT Nome, CRMV, Especialidade, Email, Logradouro, Bairro, Município, CEP, Data da Criação, Animal COUNT Animal AS Quantidade FROM (Adoção Animal - VETERINÁRIO) ORDER BY Nome
 ```
 + **Relatório Adoção de Animais-(R2)VETERINÁRIO-tipoGráficopizza-Somatória de animais por VETERINÁRIO em %**<p>
 ```SQL
-SELECT Nome da ONG, Email, Logradouro, Bairro, Município, CEP, Data da criação, Administrador COUNT animal AS Quantidade FROM (Adoção Animal - ONG) GROUP BY (Data da Criação) ORDER BY Nome
+SELECT Nome, CRMV, Especialidade, Email, Logradouro, Bairro, Município, CEP, Data da Criação, Animal COUNT Animal AS Quantidade FROM (Adoção Animal - VETERINÁRIO) ORDER BY Nome
 ```    
-   
+>
+
     
 
 
