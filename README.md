@@ -396,6 +396,22 @@ SELECT Nome, CRMV, Especialidade, Email, Logradouro, Bairro, Município, CEP, Da
 SELECT Nome, CRMV, Especialidade, Email, Logradouro, Bairro, Município, CEP, Data da Criação, Animal COUNT Animal AS Quantidade FROM (Adoção Animal - VETERINÁRIO) ORDER BY Nome
 ```    
 ## Animais
++ **Relatório Adoção de Animais-(R3) ANIMAIS-tipoTabela-Cadastro de ANIMAIS-Ordenado por Nome**<p>
+```SQL
+SELECT Nome, Espécie, Sexo, Idade, Porte, Cor, Personalidade, Raça, Castrado, Data em que o animal foi resatado, ONG, Veterinário>Nome, Adoção, Data da criação COUNT Doenças Crônicas, Animal AS Quantidade,Quantidade FROM (Adoção Animal - ANIMAL) ORDER BY Nome
+```
++ **Relatório Adoção de Animais-(R3) ANIMAIS-tipoTabela-Relatório situação crítica dos ANIMAIS-Ordenado por Nome**<p>
+```SQL
+SELECT Nome, Espécie, Sexo, Idade, Porte, Cor, Personalidade, Raça, Castrado, Data em que o animal foi resatado, ONG, Veterinário>Nome, Adoção, Data da criação COUNT Doenças Crônicas, Animal AS Quantidade,Quantidade FROM (Adoção Animal - ANIMAL) ORDER BY Nome
+```
++ **Relatório Adoção de Animais-(R3) ANIMAIS-tipoGráficobarra-Gráfico por idade dos ANIMAIS**<p>
+```SQL
+SELECT Nome, Espécie, Sexo, Idade, Porte, Cor, Personalidade, Raça, Castrado, Data em que o animal foi resatado, ONG, Veterinário>Nome, Adoção, Data da criação FROM (Adoção Animal - ANIMAL) ORDER BY idade
+``` 
++ **Relatório Adoção de Animais-(R3) ANIMAIS-tipoGráficopizza-Gráfico por idade dos ANIMAIS em %**<p>
+```SQL
+SELECT Nome, Espécie, Sexo, Idade, Porte, Cor, Personalidade, Raça, Castrado, Data em que o animal foi resatado, ONG, Veterinário>Nome, Adoção, Data da criação FROM (Adoção Animal - ANIMAL) ORDER BY idade
+```
 ## Doenças Crônicas
 ## Tratamentos
 
