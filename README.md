@@ -315,15 +315,25 @@ Nome do Relatório Analítico
 > **Relatório Adoção de Animais-(R2) VETERINÁRIO-tipoGráficobarra-Somatória de animais por VETERINÁRIO**
 >    ![figura18](img/relatório_VETERINÁRIO_gráficobarra.png)<p>
 > **Relatório Adoção de Animais-(R2)VETERINÁRIO-tipoGráficopizza-Somatória de animais por VETERINÁRIO em %**
->    ![figura19](img/relatório_VETERINÁRIO_gráficopizza.png)<p>   
+>    ![figura19](img/relatório_VETERINÁRIO_gráficopizza.png)<p>
 
     
+> **Relatório Adoção de Animais-(R3) ANIMAIS-tipoTabela-Cadastro de ANIMAIS-Ordenado por Nome**
+>    ![figura19](img/relatório_ANIMAIS_tipotabela_cadastro.png)<p>
+> **Relatório Adoção de Animais-(R3) ANIMAIS-tipoTabela-Relatório situação crítica dos ANIMAIS**
+>    ![figura20](img/relatório_ANIMAIS_tipotabela_crítico.png)<p>    
+> **Relatório Adoção de Animais-(R3) ANIMAIS-tipoGráficobarra-Gráfico por idade dos ANIMAIS**
+>    ![figura21](img/relatório_ANIMAIS_gráficobarra_idade.png)<p>
+> **Relatório Adoção de Animais-(R3) ANIMAIS-tipoGráficopizza-Gráfico por idade dos ANIMAIS em %**
+>    ![figura22](img/relatório_ANIMAIS_gráficopizza_idade.png)<p>
+
+        
 > **Relatório Adoção de Animais-(R7) DOENÇAS CRÔNICAS-tipoTabela-Cadastro de DOENÇAS CRÔNICAS-Ordenado por Nome**
->    ![figura20](img/relatório_DOENÇAS_CRÔNICAS_tipoTabela.png)<p>
+>    ![figura23](img/relatório_DOENÇAS_CRÔNICAS_tipoTabela.png)<p>
 > **Relatório Adoção de Animais-(R7) DOENÇAS CRÔNICAS-tipoGráficobarra-Cadastro de DOENÇAS CRÔNICAS**
->    ![figura21](img/relatório_DOENÇAS_CRÔNICAS_gráficobarra.png)<p>
+>    ![figura24](img/relatório_DOENÇAS_CRÔNICAS_gráficobarra.png)<p>
 > **Relatório Adoção de Animais-(R7) DOENÇAS CRÔNICAS-tipoGráficopizza-Cadastro de DOENÇAS CRÔNICAS em %**
->    ![figura22](img/relatório_DOENÇAS_CRÔNICAS_gráficopizza.png)<p>   
+>    ![figura25](img/relatório_DOENÇAS_CRÔNICAS_gráficopizza.png)<p>
     
 ### [5.1 ASSOCIAÇÃO DE COMANDOS SQL COM RELATÓRIOS ANALÍTICOS](#sumario) <a name="comandosSQL"></a>
 
