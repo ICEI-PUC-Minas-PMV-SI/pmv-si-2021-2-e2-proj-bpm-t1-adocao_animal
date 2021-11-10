@@ -322,7 +322,7 @@ Nome do Relatório Analítico
     Relatório tem como finalidade relacionar o Cadastro de Animais de forma geral para controle, visualização e acompanhamento dos animais, suas características e saúde. 
 >    ![figura19](img/relatório_ANIMAIS_tipotabela_cadastro.png)<p>
 > **Relatório Adoção de Animais-(R3) ANIMAIS-tipoTabela-Relatório situação crítica dos ANIMAIS**<p>
-    Relatório tem como finalidade apresentar a situação crítica dos Animais, informação importante porque mostra os animais que tem 1 ou mais doenças crônicas, tratamentos e estão a mais de 1 ano persistindo nessa condição de saúde.
+    Relatório tem como finalidade apresentar a situação dos Animais em estado crítico, informação importante porque mostra os animais que tem uma ou mais doenças crônicas, ou um ou mais tratamentos e estão a mais de 1 ano persistindo nessa condição de saúde.
 >    ![figura20](img/relatório_ANIMAIS_tipotabela_crítico.png)<p>    
 > **Relatório Adoção de Animais-(R3) ANIMAIS-tipoGráficobarra-Gráfico por idade dos ANIMAIS**<p>
 >    ![figura21](img/relatório_ANIMAIS_gráficobarra_idade.png)<p>
