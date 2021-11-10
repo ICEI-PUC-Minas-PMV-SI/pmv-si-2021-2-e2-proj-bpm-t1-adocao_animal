@@ -312,7 +312,7 @@ Nome do Relatório Analítico
 > **Relatório Adoção de Animais-(R1) ONG_ABRIGO-tipoGráficopizza-Somatória de animais por ONG_Abrigo em %**<p>
 >   Relatório tem como finalidade visualizar no Gráfico de pizza a somatória de animais por ONG e Abrigo em Porcentagem.<p>
 >    ![figura16](img/relatório_ONG_Abrigo_gráficopizza.png)<p>
-   
+<p>   
 ## Veterinário    
 > **Relatório Adoção de Animais-(R2) VETERINÁRIO-tipoTabela-Somatória de animais por VETERINÁRIO-Ordenado por Nome**<p>
 >   Relatório tem como finalidade relacionar o Cadastro de Veterináriio de forma geral para controle.<p>
@@ -323,7 +323,7 @@ Nome do Relatório Analítico
 > **Relatório Adoção de Animais-(R2)VETERINÁRIO-tipoGráficopizza-Somatória de animais por VETERINÁRIO em %**<p>
 >   Relatório tem como finalidade visualizar no Gráfico de pizza a somatória de animais por Veterinário em Porcentagem.<p>
 >    ![figura19](img/relatório_VETERINÁRIO_gráficopizza.png)<p>
-    
+<p>    
 ## Animais   
 > **Relatório Adoção de Animais-(R3) ANIMAIS-tipoTabela-Cadastro de ANIMAIS-Ordenado por Nome**<p>
 >   Relatório tem como finalidade relacionar o Cadastro de Animais de forma geral para controle, visualização e acompanhamento dos animais, suas características e saúde.<p> 
@@ -337,7 +337,7 @@ Nome do Relatório Analítico
 > **Relatório Adoção de Animais-(R3) ANIMAIS-tipoGráficopizza-Gráfico por idade dos ANIMAIS em %**<p>
 >   Relatório tem como finalidade visualizar no Gráfico de pizza a variação de idade dos animais em Porcentagem.<p>
 >    ![figura22](img/relatório_ANIMAIS_gráficopizza_idade.png)<p>
-    
+<p>    
 ## Doenças Crônicas        
 > **Relatório Adoção de Animais-(R7) DOENÇAS CRÔNICAS-tipoTabela-Cadastro de DOENÇAS CRÔNICAS-Ordenado por Nome**<p>
 >   Relatório tem como finalidade relacionar o Cadastro de Doenças Crônicas de forma geral para controle.<p> 
@@ -348,7 +348,7 @@ Nome do Relatório Analítico
 > **Relatório Adoção de Animais-(R7) DOENÇAS CRÔNICAS-tipoGráficopizza-Cadastro de DOENÇAS CRÔNICAS em %**<p>
 >   Relatório tem como finalidade visualizar no Gráfico de pizza o Cadastro de Doenças Crônicas em Porcentagem.<p>
 >    ![figura25](img/relatório_DOENÇAS_CRÔNICAS_gráficopizza.png)<p>
-  
+<p>  
 ## Tratamentos  
 > **Relatório Adoção de Animais-(R8) TRATAMENTOS-tipoTabela-Cadastro de TRATAMENTOS-Ordenado por Nome do Animal**<p>
 >   Relatório tem como finalidade relacionar os TRATAMENTOS de forma geral para controle.<p> 
