@@ -319,6 +319,7 @@ Nome do Relatório Analítico
 
     
 > **Relatório Adoção de Animais-(R3) ANIMAIS-tipoTabela-Cadastro de ANIMAIS-Ordenado por Nome**
+    Relatório tem como finalidade relacionar o Cadastro de Animais de forma geral para controle, visualização e acompanhamento dos animais e suas características e saúde. 
 >    ![figura19](img/relatório_ANIMAIS_tipotabela_cadastro.png)<p>
 > **Relatório Adoção de Animais-(R3) ANIMAIS-tipoTabela-Relatório situação crítica dos ANIMAIS**
 >    ![figura20](img/relatório_ANIMAIS_tipotabela_crítico.png)<p>    
