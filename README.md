@@ -394,11 +394,11 @@ SELECT Nome, CRMV, Especialidade, Email, Logradouro, Bairro, Município, CEP, Da
 ```SQL
 SELECT Nome, CRMV, Especialidade, Email, Logradouro, Bairro, Município, CEP, Data da Criação, Animal COUNT Animal AS Quantidade FROM (Adoção Animal - VETERINÁRIO) ORDER BY Nome
 ```    
->
+## Animais
+## Doenças Crônicas
+## Tratamentos
 
     
-
-
 ### [6 INDICADORES DE DESEMPENHO](#sumario) <a name="indicadores"></a>
 
 &emsp;&emsp;Através da analise sobre os processo TO-BE, foram eleitos os seguintes indicadores chave de processo (KPIs – Key Process Indicator):
