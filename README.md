@@ -365,13 +365,18 @@ Nome do Relatório Analítico
 &emsp;&emsp;Após o desenvolvimento dos relatórios analíticos com o suporte da ferramenta empregada na disciplina, realizem um processo de engenharia reversa e codifiquem os comandos SQL-DML (selects) que produzem os relatórios automaticamente gerados. Preencham o formulário abaixo com esses comandos.  
 
 Nome do Relatório Analítico
+    
 Comando SQL-DML (SELECT)
->+ **Relatório mensal Cadastro de ONG-Abrigo-Tabela**
->    - select Nome da ONG, Email, Logradouro, Bairro, Município, CEP, Data da criação, Administrador, COUNT(animal) from (Adoção Animal - ONG) order by Nome
->+ **Relatório mensal Cadastro de ONG-Abrigo-Gráfico de barras**
->    - select Nome da ONG, Email, Logradouro, Bairro, Município, CEP, Data da criação, Administrador, COUNT(animal) from (Adoção Animal - ONG) order by Nome
->+ **Relatório mensal Cadastro de ONG-Abrigo-Gráfico de pizza**
->    - select Nome da ONG, Email, Logradouro, Bairro, Município, CEP, Data da criação, Administrador, COUNT(animal) from (Adoção Animal - ONG) order by Nome<p>
+
+>+ **Relatório Adoção de Animais-(R1) ONG_ABRIGO-tipoTabela-Somatória de animais por ONG_Abrigo-Ordenado por Nome**
+>    - SELECT Nome da ONG, Email, Logradouro, Bairro, Município, CEP, Data da criação, Administrador COUNT animal AS Quantidade FROM (Adoção Animal - ONG) GROUP BY (Data da Criação) ORDER BY Nome
+    
+>+ **Relatório Adoção de Animais-(R1) ONG_ABRIGO-tipoGráficobarra-Somatória de animais por ONG_Abrigo**
+>    - SELECT Nome da ONG, Email, Logradouro, Bairro, Município, CEP, Data da criação, Administrador COUNT animal AS Quantidade FROM (Adoção Animal - ONG) GROUP BY (Data da Criação) ORDER BY Nome
+    
+>+ **Relatório Adoção de Animais-(R1) ONG_ABRIGO-tipoGráficopizza-Somatória de animais por ONG_Abrigo em %**
+>    - SELECT Nome da ONG, Email, Logradouro, Bairro, Município, CEP, Data da criação, Administrador COUNT animal AS Quantidade FROM (Adoção Animal - ONG) GROUP BY (Data da Criação) ORDER BY Nome
+    
 
 ### [6 INDICADORES DE DESEMPENHO](#sumario) <a name="indicadores"></a>
 
