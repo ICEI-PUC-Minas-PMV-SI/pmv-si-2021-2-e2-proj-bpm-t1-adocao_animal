@@ -350,14 +350,14 @@ Nome do Relatório Analítico
     
     
 > **Relatório Adoção de Animais-(R8) TRATAMENTOS-tipoTabela-Cadastro de TRATAMENTOS-Ordenado por Nome**<p>
->   Relatório tem como finalidade relacionar o Cadastro de Doenças Crônicas de forma geral para controle.<p> 
->    ![figura23](img/relatório_DOENÇAS_CRÔNICAS_tipoTabela.png)<p>
+>   Relatório tem como finalidade relacionar o Cadastro de TRATAMENTOS de forma geral para controle.<p> 
+>    ![figura26](img/relatório_TRATAMENTO_tipotabela.png)<p>
 > **Relatório Adoção de Animais-(R8) TRATAMENTOS-tipoGráficobarra-Cadastro de TRATAMENTOS**<p>
->   Relatório tem como finalidade visualizar no Gráfico de barras o Cadastro de Doenças Crônicas.<p>
->    ![figura24](img/relatório_DOENÇAS_CRÔNICAS_gráficobarra.png)<p>
+>   Relatório tem como finalidade visualizar no Gráfico de barras os TRATAMENTOS.<p>
+>    ![figura27](img/relatório_TRATAMENTO_gráficobarra.png)<p>
 > **Relatório Adoção de Animais-(R8) TRATAMENTOS-tipoGráficopizza-Cadastro de TRATAMENTOS em %**<p>
->   Relatório tem como finalidade visualizar no Gráfico de barras o Cadastro de Doenças Crônicas em Porcentagem.<p>
->    ![figura25](img/relatório_DOENÇAS_CRÔNICAS_gráficopizza.png)<p>  
+>   Relatório tem como finalidade visualizar no Gráfico de barras o Cadastro de TRATAMENTOS em Porcentagem.<p>
+>    ![figura28](img/relatório_TRATAMENTO_gráficopizza.png)<p>  
     
  
 ### [5.1 ASSOCIAÇÃO DE COMANDOS SQL COM RELATÓRIOS ANALÍTICOS](#sumario) <a name="comandosSQL"></a>
