@@ -301,7 +301,8 @@ Cada processo identificado deve possuir, no mínimo, um relatório analítico as
 &emsp;&emsp;Cada relatório desenvolvido deve ter sua imagem apresentada aqui juntamente com a descrição de seus objetivos.  
 
 Nome do Relatório Analítico
-
+    
+## ONG e Abrigo
 > **Relatório Adoção de Animais-(R1) ONG_ABRIGO-tipoTabela-Somatória de animais por ONG_Abrigo-Ordenado por Nome**<p>
 >   Relatório tem como finalidade relacionar o Cadastro de ONG e Abrigo de forma geral, e a somatória de animais por ONG e Abrigo.<p>
 >    ![figura14](img/relatório_ONG_Abrigo_tipotabela.png)<p>
@@ -312,7 +313,7 @@ Nome do Relatório Analítico
 >   Relatório tem como finalidade visualizar no Gráfico de pizza a somatória de animais por ONG e Abrigo em Porcentagem.<p>
 >    ![figura16](img/relatório_ONG_Abrigo_gráficopizza.png)<p>
    
-    
+## Veterinário    
 > **Relatório Adoção de Animais-(R2) VETERINÁRIO-tipoTabela-Somatória de animais por VETERINÁRIO-Ordenado por Nome**<p>
 >   Relatório tem como finalidade relacionar o Cadastro de Veterináriio de forma geral para controle.<p>
 >    ![figura17](img/relatório_VETERINÁRIO_mensaltabela.png)<p>
@@ -323,7 +324,7 @@ Nome do Relatório Analítico
 >   Relatório tem como finalidade visualizar no Gráfico de pizza a somatória de animais por Veterinário em Porcentagem.<p>
 >    ![figura19](img/relatório_VETERINÁRIO_gráficopizza.png)<p>
     
-    
+## Animais   
 > **Relatório Adoção de Animais-(R3) ANIMAIS-tipoTabela-Cadastro de ANIMAIS-Ordenado por Nome**<p>
 >   Relatório tem como finalidade relacionar o Cadastro de Animais de forma geral para controle, visualização e acompanhamento dos animais, suas características e saúde.<p> 
 >    ![figura19](img/relatório_ANIMAIS_tipotabela_cadastro.png)<p>
@@ -337,7 +338,7 @@ Nome do Relatório Analítico
 >   Relatório tem como finalidade visualizar no Gráfico de pizza a variação de idade dos animais em Porcentagem.<p>
 >    ![figura22](img/relatório_ANIMAIS_gráficopizza_idade.png)<p>
     
-        
+## Doenças Crônicas        
 > **Relatório Adoção de Animais-(R7) DOENÇAS CRÔNICAS-tipoTabela-Cadastro de DOENÇAS CRÔNICAS-Ordenado por Nome**<p>
 >   Relatório tem como finalidade relacionar o Cadastro de Doenças Crônicas de forma geral para controle.<p> 
 >    ![figura23](img/relatório_DOENÇAS_CRÔNICAS_tipoTabela.png)<p>
@@ -348,7 +349,7 @@ Nome do Relatório Analítico
 >   Relatório tem como finalidade visualizar no Gráfico de pizza o Cadastro de Doenças Crônicas em Porcentagem.<p>
 >    ![figura25](img/relatório_DOENÇAS_CRÔNICAS_gráficopizza.png)<p>
   
-  
+## Tratamentos  
 > **Relatório Adoção de Animais-(R8) TRATAMENTOS-tipoTabela-Cadastro de TRATAMENTOS-Ordenado por Nome do Animal**<p>
 >   Relatório tem como finalidade relacionar os TRATAMENTOS de forma geral para controle.<p> 
 >    ![figura26](img/relatório_TRATAMENTO_tipotabela.png)<p>
