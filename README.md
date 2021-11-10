@@ -325,8 +325,10 @@ Nome do Relatório Analítico
     Relatório estatístico que tem como finalidade apresentar a situação dos Animais em estado crítico, informação importante porque mostra os animais que tem uma ou mais doenças crônicas, ou um ou mais tratamentos e estão a mais de 1 ano persistindo nessa condição de saúde.
 >    ![figura20](img/relatório_ANIMAIS_tipotabela_crítico.png)<p>    
 > **Relatório Adoção de Animais-(R3) ANIMAIS-tipoGráficobarra-Gráfico por idade dos ANIMAIS**<p>
+    Relatório tem como finalidade visualizar no Gráfico de barras a variação de idade dos animais.
 >    ![figura21](img/relatório_ANIMAIS_gráficobarra_idade.png)<p>
 > **Relatório Adoção de Animais-(R3) ANIMAIS-tipoGráficopizza-Gráfico por idade dos ANIMAIS em %**<p>
+    Relatório tem como finalidade visualizar no Gráfico de pizza a variação de idade dos animais em Porcentagem.
 >    ![figura22](img/relatório_ANIMAIS_gráficopizza_idade.png)<p>
 
         
