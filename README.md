@@ -303,10 +303,13 @@ Cada processo identificado deve possuir, no mínimo, um relatório analítico as
 Nome do Relatório Analítico
 
 > **Relatório Adoção de Animais-(R1) ONG_ABRIGO-tipoTabela-Somatória de animais por ONG_Abrigo-Ordenado por Nome**<p>
+>   Relatório tem como finalidade relacionar o Cadastro de ONG e Abrigo de forma geral, e a somatória de animais por ONG e Abrigo.<p>
 >    ![figura14](img/relatório_ONG_Abrigo_mensaltabela.png)<p>
 > **Relatório Adoção de Animais-(R1) ONG_ABRIGO-tipoGráficobarra-Somatória de animais por ONG_Abrigo**<p>
+>   Relatório tem como finalidade visualizar no Gráfico de barra a somatória de animais por ONG e Abrigo.<p>
 >    ![figura15](img/relatório_ONG_Abrigo_gráficobarra.png)<p>
 > **Relatório Adoção de Animais-(R1) ONG_ABRIGO-tipoGráficopizza-Somatória de animais por ONG_Abrigo em %**<p>
+>   Relatório tem como finalidade visualizar no Gráfico de pizza a somatória de animais por ONG e Abrigo em Porcentagem.<p>
 >    ![figura16](img/relatório_ONG_Abrigo_gráficopizza.png)<p>
 
     
