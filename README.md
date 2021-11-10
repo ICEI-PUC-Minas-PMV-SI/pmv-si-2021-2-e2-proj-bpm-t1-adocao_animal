@@ -426,7 +426,18 @@ SELECT Nome, Espécie, Animal, Data da criação FROM (Adoção Animal - Doença
 SELECT Nome, Espécie, Animal, Data da criação FROM (Adoção Animal - Doenças Crônicas) ORDER BY Nome
 ```    
 ## Tratamentos
-
++ **Relatório Adoção de Animais-(R8) TRATAMENTOS-tipoTabela-Cadastro de TRATAMENTOS-Ordenado por Nome do Animal**<p>
+```SQL
+SELECT Nome, Tratamento selecionado, Veterinário Selecionado, Data da última alteração, Status, Data de Conclusao, Data da criação FROM (Adoção Animal - TRATAMENTO) ORDER BY Nome
+```
++ **Relatório Adoção de Animais-(R8) TRATAMENTOS-tipoGráficobarra-Relação de TRATAMENTOS por Data de Conclusão**<p>
+```SQL
+SELECT Nome, Espécie, Animal, Data da criação FROM (Adoção Animal - Doenças Crônicas) ORDER BY Nome
+```
++ **Relatório Adoção de Animais-(R8) TRATAMENTOS-tipoGráficopizza-Relação de TRATAMENTOS em %**<p>
+```SQL
+SELECT Nome, Espécie, Animal, Data da criação FROM (Adoção Animal - Doenças Crônicas) ORDER BY Nome
+```    
     
 ### [6 INDICADORES DE DESEMPENHO](#sumario) <a name="indicadores"></a>
 
