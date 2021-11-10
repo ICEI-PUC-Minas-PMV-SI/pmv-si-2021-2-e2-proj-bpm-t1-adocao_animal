@@ -302,33 +302,34 @@ Cada processo identificado deve possuir, no mínimo, um relatório analítico as
 
 Nome do Relatório Analítico
 
-> **Relatório Adoção de Animais-(R1) ONG_ABRIGO-tipoTabela-Somatória de animais por ONG_Abrigo-Ordenado por Nome**
+> **Relatório Adoção de Animais-(R1) ONG_ABRIGO-tipoTabela-Somatória de animais por ONG_Abrigo-Ordenado por Nome**<p>
 >    ![figura14](img/relatório_ONG_Abrigo_mensaltabela.png)<p>
-> **Relatório Adoção de Animais-(R1) ONG_ABRIGO-tipoGráficobarra-Somatória de animais por ONG_Abrigo**
+> **Relatório Adoção de Animais-(R1) ONG_ABRIGO-tipoGráficobarra-Somatória de animais por ONG_Abrigo**<p>
 >    ![figura15](img/relatório_ONG_Abrigo_gráficobarra.png)<p>
-> **Relatório Adoção de Animais-(R1) ONG_ABRIGO-tipoGráficopizza-Somatória de animais por ONG_Abrigo em %**
+> **Relatório Adoção de Animais-(R1) ONG_ABRIGO-tipoGráficopizza-Somatória de animais por ONG_Abrigo em %**<p>
 >    ![figura16](img/relatório_ONG_Abrigo_gráficopizza.png)<p>
 
     
-> **Relatório Adoção de Animais-(R2) VETERINÁRIO-tipoTabela-Somatória de animais por VETERINÁRIO-Ordenado por Nome**
+> **Relatório Adoção de Animais-(R2) VETERINÁRIO-tipoTabela-Somatória de animais por VETERINÁRIO-Ordenado por Nome**<p>
+    Relatório tem como finalidade relacionar o Cadastro de Veterináriio de forma geral para controle.
 >    ![figura17](img/relatório_VETERINÁRIO_mensaltabela.png)<p>
-> **Relatório Adoção de Animais-(R2) VETERINÁRIO-tipoGráficobarra-Somatória de animais por VETERINÁRIO**
+> **Relatório Adoção de Animais-(R2) VETERINÁRIO-tipoGráficobarra-Somatória de animais por VETERINÁRIO**<p>
 >    ![figura18](img/relatório_VETERINÁRIO_gráficobarra.png)<p>
-> **Relatório Adoção de Animais-(R2)VETERINÁRIO-tipoGráficopizza-Somatória de animais por VETERINÁRIO em %**
+> **Relatório Adoção de Animais-(R2)VETERINÁRIO-tipoGráficopizza-Somatória de animais por VETERINÁRIO em %**<p>
 >    ![figura19](img/relatório_VETERINÁRIO_gráficopizza.png)<p>
 
     
 > **Relatório Adoção de Animais-(R3) ANIMAIS-tipoTabela-Cadastro de ANIMAIS-Ordenado por Nome**<p>
-    Relatório tem como finalidade relacionar o Cadastro de Animais de forma geral para controle, visualização e acompanhamento dos animais, suas características e saúde. 
+>   Relatório tem como finalidade relacionar o Cadastro de Animais de forma geral para controle, visualização e acompanhamento dos animais, suas características e saúde.<p> 
 >    ![figura19](img/relatório_ANIMAIS_tipotabela_cadastro.png)<p>
-> **Relatório Adoção de Animais-(R3) ANIMAIS-tipoTabela-Relatório situação crítica dos ANIMAIS**<p>
-    Relatório estatístico que tem como finalidade apresentar a situação dos Animais em estado crítico, informação importante porque mostra os animais que tem uma ou mais doenças crônicas, ou um ou mais tratamentos e estão a mais de 1 ano persistindo nessa condição de saúde.
+> **Relatório Adoção de Animais-(R3) ANIMAIS-tipoTabela-Relatório situação crítica dos ANIMAIS-Ordenado por Nome**<p>
+>   Relatório estatístico que tem como finalidade apresentar a situação dos Animais em estado crítico, informação importante porque mostra os animais que tem uma ou mais doenças crônicas, ou um ou mais tratamentos e estão a mais de 1 ano persistindo nessa condição de saúde.<p>
 >    ![figura20](img/relatório_ANIMAIS_tipotabela_crítico.png)<p>    
 > **Relatório Adoção de Animais-(R3) ANIMAIS-tipoGráficobarra-Gráfico por idade dos ANIMAIS**<p>
-    Relatório tem como finalidade visualizar no Gráfico de barras a variação de idade dos animais.
+>   Relatório tem como finalidade visualizar no Gráfico de barras a variação de idade dos animais.<p>
 >    ![figura21](img/relatório_ANIMAIS_gráficobarra_idade.png)<p>
 > **Relatório Adoção de Animais-(R3) ANIMAIS-tipoGráficopizza-Gráfico por idade dos ANIMAIS em %**<p>
-    Relatório tem como finalidade visualizar no Gráfico de pizza a variação de idade dos animais em Porcentagem.
+>   Relatório tem como finalidade visualizar no Gráfico de pizza a variação de idade dos animais em Porcentagem.<p>
 >    ![figura22](img/relatório_ANIMAIS_gráficopizza_idade.png)<p>
 
         
