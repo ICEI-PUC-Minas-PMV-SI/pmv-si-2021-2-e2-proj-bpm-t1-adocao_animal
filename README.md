@@ -348,6 +348,18 @@ Nome do Relatório Analítico
 >   Relatório tem como finalidade visualizar no Gráfico de barras o Cadastro de Doenças Crônicas em Porcentagem.<p>
 >    ![figura25](img/relatório_DOENÇAS_CRÔNICAS_gráficopizza.png)<p>
     
+    
+> **Relatório Adoção de Animais-(R8) TRATAMENTOS-tipoTabela-Cadastro de TRATAMENTOS-Ordenado por Nome**<p>
+>   Relatório tem como finalidade relacionar o Cadastro de Doenças Crônicas de forma geral para controle.<p> 
+>    ![figura23](img/relatório_DOENÇAS_CRÔNICAS_tipoTabela.png)<p>
+> **Relatório Adoção de Animais-(R8) TRATAMENTOS-tipoGráficobarra-Cadastro de TRATAMENTOS**<p>
+>   Relatório tem como finalidade visualizar no Gráfico de barras o Cadastro de Doenças Crônicas.<p>
+>    ![figura24](img/relatório_DOENÇAS_CRÔNICAS_gráficobarra.png)<p>
+> **Relatório Adoção de Animais-(R8) TRATAMENTOS-tipoGráficopizza-Cadastro de TRATAMENTOS em %**<p>
+>   Relatório tem como finalidade visualizar no Gráfico de barras o Cadastro de Doenças Crônicas em Porcentagem.<p>
+>    ![figura25](img/relatório_DOENÇAS_CRÔNICAS_gráficopizza.png)<p>  
+    
+ 
 ### [5.1 ASSOCIAÇÃO DE COMANDOS SQL COM RELATÓRIOS ANALÍTICOS](#sumario) <a name="comandosSQL"></a>
 
 &emsp;&emsp;Após o desenvolvimento dos relatórios analíticos com o suporte da ferramenta empregada na disciplina, realizem um processo de engenharia reversa e codifiquem os comandos SQL-DML (selects) que produzem os relatórios automaticamente gerados. Preencham o formulário abaixo com esses comandos.  
