@@ -350,14 +350,14 @@ Nome do Relatório Analítico
 >    ![figura25](img/relatório_DOENÇAS_CRÔNICAS_gráficopizza.png)<p>
   
 ## Tratamentos  
-> **Relatório Adoção de Animais-(R8) TRATAMENTOS-tipoTabela-Cadastro de TRATAMENTOS-Ordenado por Nome do Animal**<p>
->   Relatório tem como finalidade relacionar os TRATAMENTOS de forma geral para controle.<p> 
+> **Relatório Adoção de Animais-(R8) TRATAMENTOS-tipoTabela-TRATAMENTOS-Ordenado por Data da Consulta**<p>
+>   Relatório tem como finalidade relacionar os TRATAMENTOS por Data da Consulta.<p> 
 >    ![figura26](img/relatório_TRATAMENTO_tipotabela.png)<p>
-> **Relatório Adoção de Animais-(R8) TRATAMENTOS-tipoGráficobarra-Relação de TRATAMENTOS por Data de Conclusão**<p>
->   Relatório tem como finalidade visualizar no Gráfico de barras os TRATAMENTOS por Data de Conclusão.<p>
+> **Relatório Adoção de Animais-(R8) TRATAMENTOS-tipoGráficobarra-Relação de quantidade de TRATAMENTOS por Animal**<p>
+>   Relatório tem como finalidade visualizar no Gráfico de barras a relação de quantidade de TRATAMENTOS por Animal.<p>
 >    ![figura27](img/relatório_TRATAMENTO_gráficobarra.png)<p>
-> **Relatório Adoção de Animais-(R8) TRATAMENTOS-tipoGráficopizza-Relação de TRATAMENTOS em %**<p>
->   Relatório tem como finalidade visualizar no Gráfico de pizza o Cadastro de TRATAMENTOS em Porcentagem.<p>
+> **Relatório Adoção de Animais-(R8) TRATAMENTOS-tipoGráficopizza-Quantidade de TRATAMENTOS por Animal em %**<p>
+>   Relatório tem como finalidade visualizar no Gráfico de pizza a quantidade de TRATAMENTOS por Animal em Porcentagem.<p>
 >    ![figura28](img/relatório_TRATAMENTO_gráficopizza.png)<p> 
    
  
@@ -426,15 +426,15 @@ SELECT Nome, Espécie, Animal, Data da criação FROM (Adoção Animal - Doença
 SELECT Nome, Espécie, Animal, Data da criação FROM (Adoção Animal - Doenças Crônicas) ORDER BY Nome
 ```    
 ## Tratamentos
-+ **Relatório Adoção de Animais-(R8) TRATAMENTOS-tipoTabela-Cadastro de TRATAMENTOS-Ordenado por Nome do Animal**<p>
++ **Relatório Adoção de Animais-(R8) TRATAMENTOS-tipoTabela-TRATAMENTOS-Ordenado por Data da Consulta**<p>
 ```SQL
 SELECT Animal, Data da consulta, Status tratamento, Diagnóstico, Isolamento, Veterinário, Data da última alteração, Data da criação FROM (Adoção Animal - TRATAMENTO) ORDER BY Nome
 ```
-+ **Relatório Adoção de Animais-(R8) TRATAMENTOS-tipoGráficobarra-Relação de TRATAMENTOS por Data de Conclusão**<p>
++ **Relatório Adoção de Animais-(R8) TRATAMENTOS-tipoGráficobarra-Relação de quantidade de TRATAMENTOS por Animal**<p>
 ```SQL
 SELECT Animal, Data da consulta, Status tratamento, Diagnóstico, Isolamento, Veterinário, Data da última alteração, Data da criação FROM (Adoção Animal - TRATAMENTO) ORDER BY Nome
 ```
-+ **Relatório Adoção de Animais-(R8) TRATAMENTOS-tipoGráficopizza-Relação de TRATAMENTOS em %**<p>
++ **Relatório Adoção de Animais-(R8) TRATAMENTOS-tipoGráficopizza-Quantidade de TRATAMENTOS por Animal em %**<p>
 ```SQL
 SELECT Animal, Data da consulta, Status tratamento, Diagnóstico, Isolamento, Veterinário, Data da última alteração, Data da criação FROM (Adoção Animal - TRATAMENTO) ORDER BY Nome
 ```    
