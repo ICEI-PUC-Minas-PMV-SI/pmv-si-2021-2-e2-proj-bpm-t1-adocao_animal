@@ -432,11 +432,11 @@ SELECT Animal, Data da consulta, Status tratamento, Diagnóstico, Isolamento, Ve
 ```
 + **Relatório Adoção de Animais-(R8) TRATAMENTOS-tipoGráficobarra-Relação de quantidade de TRATAMENTOS por Animal**<p>
 ```SQL
-SELECT Animal, Data da consulta, Status tratamento, Diagnóstico, Isolamento, Veterinário, Data da última alteração, Data da criação FROM (Adoção Animal - TRATAMENTO) ORDER BY Data da consulta
+SELECT Animal, Data da consulta, Status tratamento, Diagnóstico, Isolamento, Veterinário, Data da última alteração, Data da criação FROM (Adoção Animal - TRATAMENTO) ORDER BY Nome
 ```
 + **Relatório Adoção de Animais-(R8) TRATAMENTOS-tipoGráficopizza-Quantidade de TRATAMENTOS por Animal em %**<p>
 ```SQL
-SELECT Animal, Data da consulta, Status tratamento, Diagnóstico, Isolamento, Veterinário, Data da última alteração, Data da criação FROM (Adoção Animal - TRATAMENTO) ORDER BY Data da consulta
+SELECT Animal, Data da consulta, Status tratamento, Diagnóstico, Isolamento, Veterinário, Data da última alteração, Data da criação FROM (Adoção Animal - TRATAMENTO) ORDER BY Nome
 ```    
     
 ### [6 INDICADORES DE DESEMPENHO](#sumario) <a name="indicadores"></a>
