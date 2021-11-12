@@ -415,28 +415,28 @@ SELECT Nome, Espécie, Sexo, Idade, Porte, Cor, Personalidade, Raça, Castrado, 
 ## Doenças Crônicas
 + **Relatório Adoção de Animais-(R7) DOENÇAS CRÔNICAS-tipoTabela-Cadastro de DOENÇAS CRÔNICAS-Ordenado por Nome**<p>
 ```SQL
-SELECT Nome, Espécie, Animal, Data da criação FROM (Adoção Animal - Doenças Crônicas) ORDER BY Nome
+SELECT Nome, Espécie, Animal, Data da criação FROM Doenças Crônicas ORDER BY Nome
 ```
 + **Relatório Adoção de Animais-(R7) DOENÇAS CRÔNICAS-tipoGráficobarra-Cadastro de DOENÇAS CRÔNICAS**<p>
 ```SQL
-SELECT Nome, Espécie, Animal, Data da criação FROM (Adoção Animal - Doenças Crônicas) ORDER BY Nome
+SELECT Nome, Espécie, Animal, Data da criação FROM Doenças Crônicas ORDER BY Nome
 ```
 + **Relatório Adoção de Animais-(R7) DOENÇAS CRÔNICAS-tipoGráficopizza-Cadastro de DOENÇAS CRÔNICAS em %**<p>
 ```SQL
-SELECT Nome, Espécie, Animal, Data da criação FROM (Adoção Animal - Doenças Crônicas) ORDER BY Nome
+SELECT Nome, Espécie, Animal, Data da criação FROM Doenças Crônicas ORDER BY Nome
 ```    
 ## Tratamentos
 + **Relatório Adoção de Animais-(R8) TRATAMENTOS-tipoTabela-TRATAMENTOS-Ordenado por Data da Consulta**<p>
 ```SQL
-SELECT Animal, Data da consulta, Status tratamento, Diagnóstico, Isolamento, Veterinário, Data da última alteração, Data da criação FROM (Adoção Animal - TRATAMENTO) ORDER BY Data da consulta
+SELECT Animal, Data da consulta, Status tratamento, Diagnóstico, Isolamento, Veterinário, Data da última alteração, Data da criação FROM Tratamento ORDER BY Data da consulta
 ```
 + **Relatório Adoção de Animais-(R8) TRATAMENTOS-tipoGráficobarra-Relação de quantidade de TRATAMENTOS por Animal**<p>
 ```SQL
-SELECT Animal, Data da consulta, Status tratamento, Diagnóstico, Isolamento, Veterinário, Data da última alteração, Data da criação FROM (Adoção Animal - TRATAMENTO) ORDER BY Nome
+SELECT Animal, Data da consulta, Status tratamento, Diagnóstico, Isolamento, Veterinário, Data da última alteração, Data da criação FROM Tratamento ORDER BY Data da consulta
 ```
 + **Relatório Adoção de Animais-(R8) TRATAMENTOS-tipoGráficopizza-Quantidade de TRATAMENTOS por Animal em %**<p>
 ```SQL
-SELECT Animal, Data da consulta, Status tratamento, Diagnóstico, Isolamento, Veterinário, Data da última alteração, Data da criação FROM (Adoção Animal - TRATAMENTO) ORDER BY Nome
+SELECT Animal, Data da consulta, Status tratamento, Diagnóstico, Isolamento, Veterinário, Data da última alteração, Data da criação FROM Tratamento ORDER BY Data da consulta
 ```    
     
 ### [6 INDICADORES DE DESEMPENHO](#sumario) <a name="indicadores"></a>
