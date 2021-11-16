@@ -10,7 +10,7 @@ Trabalho apresentado à disciplina Aplicações para Processos de Negócios do C
 
 ## Integrantes
 
-* Bruno Henrique Morais de Oliveira1
+* Bruno Henrique Morais de Oliveira
 * Cleverson Christian da Rocha
 * Luiz Carlos Muschioni
 * Maitê Luise Freitas de Almeida Santos
