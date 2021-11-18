@@ -402,7 +402,7 @@ SELECT Nome, Espécie, Sexo, Idade, Porte, Cor, Personalidade, Raça, Castrado, 
 ```
 + **Relatório Adoção de Animais-(R3) ANIMAIS-tipoTabela-Relatório situação crítica dos ANIMAIS-Ordenado por Nome**<p>
 ```SQL
-SELECT Nome, Espécie, Sexo, Idade, Porte, Cor, Personalidade, Raça, Castrado, Data em que o animal foi resgatado, ONG, Veterinário.Nome, Adoção, Data da criação COUNT(Doenças Crônicas.Quantidade,Tratamento.Quantidade) FROM Animal,Veterinário,Doenças Crônicas,Tratamento WHERE Doenças Crônicas > 0 OR Tratamento > 0 AND 'Data em que o animal foi resgatado' > 'Data em que o animal foi resgatado' - 365 ORDER BY Nome
+SELECT Nome, Espécie, Sexo, Idade, Porte, Cor, Personalidade, Raça, Castrado, Data em que o animal foi resgatado, ONG, Veterinário.Nome, Adoção, Data da criação COUNT(Doenças Crônicas.Quantidade,Tratamento.Quantidade) FROM Animal,Veterinário,Doenças Crônicas,Tratamento WHERE Doenças Crônicas > 0 OR Tratamento > 0 AND 'Data em que o animal foi resgatado' < 'Data em que o animal foi resgatado' - 365 ORDER BY Nome
 ```
 + **Relatório Adoção de Animais-(R3) ANIMAIS-tipoGráficobarra-Gráfico por idade dos ANIMAIS**<p>
 ```SQL
