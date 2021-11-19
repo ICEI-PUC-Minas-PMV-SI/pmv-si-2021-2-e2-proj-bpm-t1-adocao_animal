@@ -10,7 +10,7 @@ Trabalho apresentado à disciplina Aplicações para Processos de Negócios do C
 
 ## Integrantes
 
-* Bruno Henrique Morais de Oliveira1
+* Bruno Henrique Morais de Oliveira
 * Cleverson Christian da Rocha
 * Luiz Carlos Muschioni
 * Maitê Luise Freitas de Almeida Santos
@@ -27,4 +27,6 @@ Trabalho apresentado à disciplina Aplicações para Processos de Negócios do C
 
 &emsp;&emsp;Este projeto aborda a identificação do processo de adoção de animais abandonados e da divulgação desses animais para adoção por ONGs de Proteção Animal. Para isto foi realizado um levantamento buscando entender o processo atual com o intuito de identificar os pontos onde a tecnologia possa contribuir para otimização deste processo. Deste modo, a pesquisa reporta as principais tecnologias e meios de comunicação utilizados no momento, como também caminha para o desenvolvimento de propor um sistema que amplie a divulgação de animais domésticos que estão para adoção em ONGs e acompanhe o processo de adaptação pós-adoção.
 
+
 Palavras-chave: Adoção. ONGs. Animais.
+
