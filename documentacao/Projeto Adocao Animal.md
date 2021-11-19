@@ -100,7 +100,7 @@ Figura 2 - Modelo AS-IS do processo de cadastro de clínicas veterinárias parce
 ![figura2](../img/CadClinicasAS.png)<p>
 Fonte: Os autores.  
 
-### [3.1.3 Processo de Cadastro de Adotantes (AS-IS)](#sumario) <a name="AdotantesAS"></a>
+### [3.1.3 Processo de Cadastro de Adotantes (AS-IS)](#sumario) <a name="adotantesAS"></a>
 
 &emsp;&emsp;As pessoas que têm interesse em adotar um animal precisam entrar em contato com as ONGs para descobrir onde e quando acontecerá uma feira de adoção. Elas, também, frequentemente, acessam os sites e redes sociais dessas organizações para procurar animais.  
 &emsp;&emsp;Sem um cadastro prévio do possível candidato para adoção, as ONGs não conseguem fazer uma triagem eficiente dos candidatos e também não possuem um canal eficaz de comunicação e publicação de animais para adoção. É um processo bastante manual e que depende de vários deslocamentos para conseguir localizar um animal.  
