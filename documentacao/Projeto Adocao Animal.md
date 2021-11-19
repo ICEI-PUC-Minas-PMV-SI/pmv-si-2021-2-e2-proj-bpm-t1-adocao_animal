@@ -88,7 +88,7 @@
 &emsp;&emsp;Devido ao modelo atual ser executado de forma manual (sem um sistema integrado), o recebimento de animais em organizações e os procedimentos a serem realizados, estão resumidos em somente um processo, denominado cadastro de animais.  
 
 Figura 1 - Modelo AS-IS do processo de cadastro de animais<p>
-![figura1](../img/CadAnimaisAS.png)<p> 
+![figura1](../img/CadAnimaisAS.png)<p>
 Fonte: Os autores.  
 
 ### [3.1.2 Processo de Cadastro de Clínicas Veterinárias Parceiras e Veterinários Voluntários (AS-IS)](#sumario) <a name="clinicasAS"></a>
@@ -343,71 +343,71 @@ Comando SQL-DML (SELECT)
 ## ONG e Abrigo
 + **Relatório Adoção de Animais-(R1) ONG_ABRIGO-tipoTabela-Somatória de animais por ONG_Abrigo-Ordenado por Nome**<p>
 ```SQL
-SELECT Nome da ONG, Email, Logradouro, Bairro, Município, CEP, Data da criação, Administrador COUNT Animal AS Quantidade FROM (Adoção Animal - ONG) GROUP BY (Data da Criação) ORDER BY Nome
+SELECT Nome da ONG, Email, Logradouro, Bairro, Município, CEP, Data da criação, Administrador COUNT (Animal.Quantidade) FROM ONG,Animal ORDER BY Nome
 ```
 + **Relatório Adoção de Animais-(R1) ONG_ABRIGO-tipoGráficobarra-Somatória de animais por ONG_Abrigo**<p>
 ```SQL
-SELECT Nome da ONG, Email, Logradouro, Bairro, Município, CEP, Data da criação, Administrador COUNT Animal AS Quantidade FROM (Adoção Animal - ONG) GROUP BY (Data da Criação) ORDER BY Nome
+SELECT Nome da ONG, Email, Logradouro, Bairro, Município, CEP, Data da criação, Administrador COUNT (Animal.Quantidade) FROM ONG,Animal ORDER BY Nome
 ```
 + **Relatório Adoção de Animais-(R1) ONG_ABRIGO-tipoGráficopizza-Somatória de animais por ONG_Abrigo em %**<p>
 ```SQL
-SELECT Nome da ONG, Email, Logradouro, Bairro, Município, CEP, Data da criação, Administrador COUNT Animal AS Quantidade FROM (Adoção Animal - ONG) GROUP BY (Data da Criação) ORDER BY Nome
+SELECT Nome da ONG, Email, Logradouro, Bairro, Município, CEP, Data da criação, Administrador COUNT (Animal.Quantidade) FROM ONG,Animal ORDER BY Nome
 ```    
 ## Veterinário
 + **Relatório Adoção de Animais-(R2) VETERINÁRIO-tipoTabela-Somatória de animais por VETERINÁRIO-Ordenado por Nome**<p>
 ```SQL
-SELECT Nome, CRMV, Especialidade, Email, Logradouro, Bairro, Município, CEP, Data da Criação, Animal COUNT Animal AS Quantidade FROM (Adoção Animal - VETERINÁRIO) ORDER BY Nome
+SELECT Nome, CRMV, Especialidade, Email, Logradouro, Bairro, Município, CEP, Data da Criação COUNT (Animal.Quantidade) FROM Veterinário,Animal ORDER BY Nome
 ```
 + **Relatório Adoção de Animais-(R2) VETERINÁRIO-tipoGráficobarra-Somatória de animais por VETERINÁRIO**<p>
 ```SQL
-SELECT Nome, CRMV, Especialidade, Email, Logradouro, Bairro, Município, CEP, Data da Criação, Animal COUNT Animal AS Quantidade FROM (Adoção Animal - VETERINÁRIO) ORDER BY Nome
+SELECT Nome, CRMV, Especialidade, Email, Logradouro, Bairro, Município, CEP, Data da Criação COUNT (Animal.Quantidade) FROM Veterinário,Animal ORDER BY Nome
 ```
 + **Relatório Adoção de Animais-(R2)VETERINÁRIO-tipoGráficopizza-Somatória de animais por VETERINÁRIO em %**<p>
 ```SQL
-SELECT Nome, CRMV, Especialidade, Email, Logradouro, Bairro, Município, CEP, Data da Criação, Animal COUNT Animal AS Quantidade FROM (Adoção Animal - VETERINÁRIO) ORDER BY Nome
+SELECT Nome, CRMV, Especialidade, Email, Logradouro, Bairro, Município, CEP, Data da Criação COUNT (Animal.Quantidade) FROM Veterinário,Animal ORDER BY Nome
 ```    
 ## Animais
 + **Relatório Adoção de Animais-(R3) ANIMAIS-tipoTabela-Cadastro de ANIMAIS-Ordenado por Nome**<p>
 ```SQL
-SELECT Nome, Espécie, Sexo, Idade, Porte, Cor, Personalidade, Raça, Castrado, Data em que o animal foi resgatado, ONG, Veterinário.Nome, Adoção, Data da criação COUNT(Doenças Crônicas, Animal) AS Quantidade FROM (Adoção Animal - ANIMAL) ORDER BY Nome
+SELECT Nome, Espécie, Sexo, Idade, Porte, Cor, Personalidade, Raça, Castrado, Data em que o animal foi resgatado, ONG, Veterinário.Nome, Adoção, Data da criação COUNT(Doenças Crônicas.Quantidade,Tratamento.Quantidade) FROM Animal,Veterinário,Doenças Crônicas,Tratamento ORDER BY Nome
 ```
 + **Relatório Adoção de Animais-(R3) ANIMAIS-tipoTabela-Relatório situação crítica dos ANIMAIS-Ordenado por Nome**<p>
 ```SQL
-SELECT Nome, Espécie, Sexo, Idade, Porte, Cor, Personalidade, Raça, Castrado, Data em que o animal foi resgatado, ONG, Veterinário.Nome, Adoção, Data da criação COUNT(Doenças Crônicas, Animal) AS Quantidade FROM (Adoção Animal - ANIMAL) ORDER BY Nome
+SELECT Nome, Espécie, Sexo, Idade, Porte, Cor, Personalidade, Raça, Castrado, Data em que o animal foi resgatado, ONG, Veterinário.Nome, Adoção, Data da criação COUNT(Doenças Crônicas.Quantidade,Tratamento.Quantidade) FROM Animal,Veterinário,Doenças Crônicas,Tratamento WHERE Doenças Crônicas > 0 OR Tratamento > 0 AND 'Data em que o animal foi resgatado' < 'Data em que o animal foi resgatado' - 365 ORDER BY Nome
 ```
 + **Relatório Adoção de Animais-(R3) ANIMAIS-tipoGráficobarra-Gráfico por idade dos ANIMAIS**<p>
 ```SQL
-SELECT Nome, Espécie, Sexo, Idade, Porte, Cor, Personalidade, Raça, Castrado, Data em que o animal foi resgatado, ONG, Veterinário.Nome, Adoção, Data da criação COUNT(Doenças Crônicas, Animal) AS Quantidade FROM (Adoção Animal - ANIMAL) ORDER BY Nome
+SELECT Nome, Espécie, Sexo, Idade, Porte, Cor, Personalidade, Raça, Castrado, Data em que o animal foi resgatado, ONG, Veterinário.Nome, Adoção, Data da criação COUNT(Doenças Crônicas.Quantidade,Tratamento.Quantidade) FROM Animal,Veterinário,Doenças Crônicas,Tratamento ORDER BY Nome
 ``` 
 + **Relatório Adoção de Animais-(R3) ANIMAIS-tipoGráficopizza-Gráfico por idade dos ANIMAIS em %**<p>
 ```SQL
-SELECT Nome, Espécie, Sexo, Idade, Porte, Cor, Personalidade, Raça, Castrado, Data em que o animal foi resgatado, ONG, Veterinário.Nome, Adoção, Data da criação COUNT(Doenças Crônicas, Animal) AS Quantidade FROM (Adoção Animal - ANIMAL) ORDER BY Nome
+SELECT Nome, Espécie, Sexo, Idade, Porte, Cor, Personalidade, Raça, Castrado, Data em que o animal foi resgatado, ONG, Veterinário.Nome, Adoção, Data da criação COUNT(Doenças Crônicas.Quantidade,Tratamento.Quantidade) FROM Animal,Veterinário,Doenças Crônicas,Tratamento ORDER BY Nome
 ```
 ## Doenças Crônicas
 + **Relatório Adoção de Animais-(R7) DOENÇAS CRÔNICAS-tipoTabela-Cadastro de DOENÇAS CRÔNICAS-Ordenado por Nome**<p>
 ```SQL
-SELECT Nome, Espécie, Animal, Data da criação FROM (Adoção Animal - Doenças Crônicas) ORDER BY Nome
+SELECT Nome, Espécie, Animal, Data da criação FROM Doenças Crônicas ORDER BY Nome
 ```
 + **Relatório Adoção de Animais-(R7) DOENÇAS CRÔNICAS-tipoGráficobarra-Cadastro de DOENÇAS CRÔNICAS**<p>
 ```SQL
-SELECT Nome, Espécie, Animal, Data da criação FROM (Adoção Animal - Doenças Crônicas) ORDER BY Nome
+SELECT Nome, Espécie, Animal, Data da criação FROM Doenças Crônicas ORDER BY Nome
 ```
 + **Relatório Adoção de Animais-(R7) DOENÇAS CRÔNICAS-tipoGráficopizza-Cadastro de DOENÇAS CRÔNICAS em %**<p>
 ```SQL
-SELECT Nome, Espécie, Animal, Data da criação FROM (Adoção Animal - Doenças Crônicas) ORDER BY Nome
+SELECT Nome, Espécie, Animal, Data da criação FROM Doenças Crônicas ORDER BY Nome
 ```    
 ## Tratamentos
 + **Relatório Adoção de Animais-(R8) TRATAMENTOS-tipoTabela-TRATAMENTOS-Ordenado por Data da Consulta**<p>
 ```SQL
-SELECT Animal, Data da consulta, Status tratamento, Diagnóstico, Isolamento, Veterinário, Data da última alteração, Data da criação FROM (Adoção Animal - TRATAMENTO) ORDER BY Data da consulta
+SELECT Animal, Data da consulta, Status tratamento, Diagnóstico, Isolamento, Veterinário, Data da última alteração, Data da criação FROM Tratamento ORDER BY Data da consulta
 ```
 + **Relatório Adoção de Animais-(R8) TRATAMENTOS-tipoGráficobarra-Relação de quantidade de TRATAMENTOS por Animal**<p>
 ```SQL
-SELECT Animal, Data da consulta, Status tratamento, Diagnóstico, Isolamento, Veterinário, Data da última alteração, Data da criação FROM (Adoção Animal - TRATAMENTO) ORDER BY Nome
+SELECT Animal, Data da consulta, Status tratamento, Diagnóstico, Isolamento, Veterinário, Data da última alteração, Data da criação FROM Tratamento ORDER BY Data da consulta
 ```
 + **Relatório Adoção de Animais-(R8) TRATAMENTOS-tipoGráficopizza-Quantidade de TRATAMENTOS por Animal em %**<p>
 ```SQL
-SELECT Animal, Data da consulta, Status tratamento, Diagnóstico, Isolamento, Veterinário, Data da última alteração, Data da criação FROM (Adoção Animal - TRATAMENTO) ORDER BY Nome
+SELECT Animal, Data da consulta, Status tratamento, Diagnóstico, Isolamento, Veterinário, Data da última alteração, Data da criação FROM Tratamento ORDER BY Data da consulta
 ```    
     
 ### [6 INDICADORES DE DESEMPENHO](#sumario) <a name="indicadores"></a>
@@ -430,6 +430,15 @@ Saúde animal | Analisar proporcionalmente a saúde dos animais recém recolhido
 Avaliação do Programa | Buscar avaliar o sucesso dos processos de adoção, realizando uma analise da proporção de adoções consolidadas, comparado com o retorno/devolução do animal. | Avaliar o programa como um todo e identificar se o mesmo está atendendo as expectativas. | (animais_devolvidos / adocoes_consolidadas) * 100 | Tabela de Processo de Pós-Adoção | Administrativo |
 
 </br>
+
+### [Planilha de verificação para avaliação da qualidade e viabilidade do software produzido.](#sumario) <a name="ref"></a>
+
+![ASPECTOS GERAIS](https://user-images.githubusercontent.com/81273082/141598511-86f0c4a6-624b-4770-9c5d-72f816c656d2.JPG)
+![Interfaces de usuario](https://user-images.githubusercontent.com/81273082/141598554-5120d830-30bd-435d-8692-681e1a49642b.JPG)
+![Classes](https://user-images.githubusercontent.com/81273082/141598569-66baa750-c95c-4206-8485-d0026bbab328.JPG)
+
+
+[Lista de Conferência - Qualidade e Viabilidade do Software.xls](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2021-2-e2-proj-bpm-t1-adocao_animal/files/7531077/Lista.de.Conferencia.-.Qualidade.e.Viabilidade.do.Software.xls)
 
 ### [7 CONCLUSÃO](#sumario) <a name="conclusao"></a>
 
