@@ -348,9 +348,9 @@ SELECT
   Email,
   Logradouro,
   Bairro,
-  Município,
+  Municipio,
   CEP,
-  Data da criação,
+  Data da criacao,
   Administrador COUNT (Animal.Quantidade)
 FROM
   ONG,
@@ -365,9 +365,9 @@ SELECT
   Email,
   Logradouro,
   Bairro,
-  Município,
+  Municipio,
   CEP,
-  Data da criação,
+  Data da criacao,
   Administrador COUNT (Animal.Quantidade)
 FROM
   ONG,
@@ -382,9 +382,9 @@ SELECT
   Email,
   Logradouro,
   Bairro,
-  Município,
+  Municipio,
   CEP,
-  Data da criação,
+  Data da criacao,
   Administrador COUNT (Animal.Quantidade)
 FROM
   ONG,
@@ -402,11 +402,11 @@ SELECT
   Email,
   Logradouro,
   Bairro,
-  Município,
+  Municipio,
   CEP,
-  Data da Criação COUNT (Animal.Quantidade)
+  Data da Criacao COUNT (Animal.Quantidade)
 FROM
-  Veterinário,
+  Veterinario,
   Animal
 ORDER BY
   Nome
@@ -420,11 +420,11 @@ SELECT
   Email,
   Logradouro,
   Bairro,
-  Município,
+  Municipio,
   CEP,
-  Data da Criação COUNT (Animal.Quantidade)
+  Data da Criacao COUNT (Animal.Quantidade)
 FROM
-  Veterinário,
+  Veterinario,
   Animal
 ORDER BY
   Nome
@@ -438,11 +438,11 @@ SELECT
   Email,
   Logradouro,
   Bairro,
-  Município,
+  Municipio,
   CEP,
-  Data da Criação COUNT (Animal.Quantidade)
+  Data da Criacao COUNT (Animal.Quantidade)
 FROM
-  Veterinário,
+  Veterinario,
   Animal
 ORDER BY
   Nome
@@ -452,26 +452,26 @@ ORDER BY
 ```SQL
 SELECT
   Nome,
-  Espécie,
+  Especie,
   Sexo,
   Idade,
   Porte,
   Cor,
   Personalidade,
-  Raça,
+  Raca,
   Castrado,
   Data em que o animal foi resgatado,
   ONG,
-  Veterinário.Nome,
-  Adoção,
-  Data da criação COUNT(
-    Doenças Crônicas.Quantidade,
+  Veterinario.Nome,
+  Adocao,
+  Data da criacao COUNT(
+    Doencas Cronicas.Quantidade,
     Tratamento.Quantidade
   )
 FROM
   Animal,
-  Veterinário,
-  Doenças Crônicas,
+  Veterinario,
+  Doencas Cronicas,
   Tratamento
 ORDER BY
   Nome
@@ -480,29 +480,29 @@ ORDER BY
 ```SQL
 SELECT
   Nome,
-  Espécie,
+  Especie,
   Sexo,
   Idade,
   Porte,
   Cor,
   Personalidade,
-  Raça,
+  Raca,
   Castrado,
   Data em que o animal foi resgatado,
   ONG,
-  Veterinário.Nome,
-  Adoção,
-  Data da criação COUNT(
-    Doenças Crônicas.Quantidade,
+  Veterinario.Nome,
+  Adocao,
+  Data da criacao COUNT(
+    Doencas Cronicas.Quantidade,
     Tratamento.Quantidade
   )
 FROM
   Animal,
-  Veterinário,
-  Doenças Crônicas,
+  Veterinario,
+  Doencas Cronicas,
   Tratamento
 WHERE
-  Doenças Crônicas > 0
+  Doencas Cronicas > 0
   OR Tratamento > 0
   AND 'Data em que o animal foi resgatado' < 'Data em que o animal foi resgatado' - 365
 ORDER BY
@@ -512,26 +512,26 @@ ORDER BY
 ```SQL
 SELECT
   Nome,
-  Espécie,
+  Especie,
   Sexo,
   Idade,
   Porte,
   Cor,
   Personalidade,
-  Raça,
+  Raca,
   Castrado,
   Data em que o animal foi resgatado,
   ONG,
-  Veterinário.Nome,
-  Adoção,
-  Data da criação COUNT(
-    Doenças Crônicas.Quantidade,
+  Veterinario.Nome,
+  Adocao,
+  Data da criacao COUNT(
+    Doencas Cronicas.Quantidade,
     Tratamento.Quantidade
   )
 FROM
   Animal,
-  Veterinário,
-  Doenças Crônicas,
+  Veterinario,
+  Doencas Cronicas,
   Tratamento
 ORDER BY
   Nome
@@ -540,26 +540,26 @@ ORDER BY
 ```SQL
 SELECT
   Nome,
-  Espécie,
+  Especie,
   Sexo,
   Idade,
   Porte,
   Cor,
   Personalidade,
-  Raça,
+  Raca,
   Castrado,
   Data em que o animal foi resgatado,
   ONG,
-  Veterinário.Nome,
-  Adoção,
-  Data da criação COUNT(
-    Doenças Crônicas.Quantidade,
+  Veterinario.Nome,
+  Adocao,
+  Data da criacao COUNT(
+    Doencas Cronicas.Quantidade,
     Tratamento.Quantidade
   )
 FROM
   Animal,
-  Veterinário,
-  Doenças Crônicas,
+  Veterinario,
+  Doencas Cronicas,
   Tratamento
 ORDER BY
   Nome
@@ -569,11 +569,11 @@ ORDER BY
 ```SQL
 SELECT
   Nome,
-  Espécie,
+  Especie,
   Animal,
-  Data da criação
+  Data da criacao
 FROM
-  Doenças Crônicas
+  Doencas Cronicas
 ORDER BY
   Nome
 ```
@@ -581,11 +581,11 @@ ORDER BY
 ```SQL
 SELECT
   Nome,
-  Espécie,
+  Especie,
   Animal,
-  Data da criação
+  Data da criacao
 FROM
-  Doenças Crônicas
+  Doencas Cronicas
 ORDER BY
   Nome
 ```
@@ -593,11 +593,11 @@ ORDER BY
 ```SQL
 SELECT
   Nome,
-  Espécie,
+  Especie,
   Animal,
-  Data da criação
+  Data da criacao
 FROM
-  Doenças Crônicas
+  Doencas Cronicas
 ORDER BY
   Nome
 ```    
@@ -608,11 +608,11 @@ SELECT
   Animal,
   Data da consulta,
   Status tratamento,
-  Diagnóstico,
+  Diagnostico,
   Isolamento,
-  Veterinário,
-  Data da última alteração,
-  Data da criação
+  Veterinario,
+  Data da ultima alteracao,
+  Data da criacao
 FROM
   Tratamento
 ORDER BY
@@ -624,11 +624,11 @@ SELECT
   Animal,
   Data da consulta,
   Status tratamento,
-  Diagnóstico,
+  Diagnostico,
   Isolamento,
-  Veterinário,
-  Data da última alteração,
-  Data da criação
+  Veterinario,
+  Data da ultima alteracao,
+  Data da criacao
 FROM
   Tratamento
 ORDER BY
@@ -640,11 +640,11 @@ SELECT
   Animal,
   Data da consulta,
   Status tratamento,
-  Diagnóstico,
+  Diagnostico,
   Isolamento,
-  Veterinário,
-  Data da última alteração,
-  Data da criação
+  Veterinario,
+  Data da ultima alteracao,
+  Data da criacao
 FROM
   Tratamento
 ORDER BY
