@@ -88,7 +88,7 @@
 &emsp;&emsp;Devido ao modelo atual ser executado de forma manual (sem um sistema integrado), o recebimento de animais em organizações e os procedimentos a serem realizados, estão resumidos em somente um processo, denominado cadastro de animais.  
 
 Figura 1 - Modelo AS-IS do processo de cadastro de animais<p>
-![figura1](img/CadAnimaisAS.png)<p>
+![figura1](../img/CadAnimaisAS.png)<p> 
 Fonte: Os autores.  
 
 ### [3.1.2 Processo de Cadastro de Clínicas Veterinárias Parceiras e Veterinários Voluntários (AS-IS)](#sumario) <a name="clinicasAS"></a>
@@ -97,7 +97,7 @@ Fonte: Os autores.
 &emsp;&emsp;O processo se baseia em entrar em contato com as clínicas ou veterinários que queiram fazer esta parceria ou divulgar nos sites e redes sociais a causa. Os voluntários se comovem e se cadastram nestas organizações, para assim poder ajudar os animais.  
 
 Figura 2 - Modelo AS-IS do processo de cadastro de clínicas veterinárias parceiras e veterinários voluntários<p>
-![figura2](img/CadClinicasAS.png)<p>
+![figura2](../img/CadClinicasAS.png)<p>
 Fonte: Os autores.  
 
 ### [3.1.3 Processo de Cadastro de Adotantes (AS-IS)](#sumario) <a name="AdotantesAS"></a>
@@ -106,7 +106,7 @@ Fonte: Os autores.
 &emsp;&emsp;Sem um cadastro prévio do possível candidato para adoção, as ONGs não conseguem fazer uma triagem eficiente dos candidatos e também não possuem um canal eficaz de comunicação e publicação de animais para adoção. É um processo bastante manual e que depende de vários deslocamentos para conseguir localizar um animal.  
 
 Figura 3 - Modelo AS-IS do processo de cadastro de adotantes<p>
-![figura3](img/CadAdotantesAS.png)<p>
+![figura3](../img/CadAdotantesAS.png)<p>
 Fonte: Os autores.  
 
 ### [3.1.4 Processo de Adoção (AS-IS)](#sumario) <a name="adocaoAS"></a>
@@ -114,7 +114,7 @@ Fonte: Os autores.
 &emsp;&emsp;O processo de adoção tem início com a ONG verificando os relatórios com as informações disponíveis dos animais e conferindo os dados do animal que o adotante escolheu. Nessa avaliação, o estado de saúde do animal é examinado, caso ele tenha algum problema de saúde, a pessoa responsável na ONG entra em contato com  o veterinário responsável pelo animal para que seja feito uma avaliação de saúde. O animal é enviado para a clínica veterinária para realizar o *check-up* veterinário. Após a liberação do animal, é marcado um encontro com o adotante para entregar o animal, no qual assina o Termo de Comprometimento e Responsabilidade e, o processo é finalizado.  
 
 Figura 4 - Modelo AS-IS do processo de adoção<p>
-![figura4](img/AdocaoAS.png)<p>
+![figura4](../img/AdocaoAS.png)<p>
 Fonte: Os autores.  
 
 ### [3.1.5 Processo de Pós-Adoção (AS-IS)](#sumario) <a name="posAS"></a>
@@ -124,7 +124,7 @@ Fonte: Os autores.
 &emsp;&emsp;Na circunstância do animal estar doente e o adotante não ter recursos para tratá-lo, a pessoa responsável na ONG entra em contato com o veterinário para dizer que um animal precisa de tratamento. O veterinário recebe o animal e o trata. Após isso, atualiza sua ficha de saúde e o libera.  
 
 Figura 5 - Modelo AS-IS do processo de pós-adoção<p>
-![figura5](img/PosAS.png)<p>
+![figura5](../img/PosAS.png)<p>
 Fonte: Os autores.
 
 ### [3.2 MODELAGEM DOS PROCESSOS APRIMORADOS (TO-BE)](#sumario) <a name="modelagemTO"></a>
@@ -153,7 +153,7 @@ Inicialmente, o sistema conta com os seguintes recursos:
 &emsp;&emsp;Este processo refere-se ao cadastro de ONG e Abrigo, em que possíveis organizações podem se cadastrar no sistema para disponibilizar animais para adoção, gerenciar o processo de adoção e pós-adoção, bem como interagir com os demais participantes do negócio. A organização pode realizar login no sistema e, posteriormente, alterar algum dado em seu cadastro, como também realizar a exclusão deste.  
 
 Figura 6 - Modelo TO-BE do processo de cadastro de ONG e abrigo<p>
-![figura6](img/CadOngTO.png)<p>
+![figura6](../img/CadOngTO.png)<p>
 Fonte: Os autores.
 
 
@@ -162,7 +162,7 @@ Fonte: Os autores.
 &emsp;&emsp;Este processo refere-se ao cadastro de veterinários voluntários que podem se cadastrar no sistema para se disponibilizar no tratamento dos animais disponíveis para adoção, bem como interagir com os demais participantes do negócio. Eles podem estar associados a uma clínica veterinária. O veterinário pode realizar login no sistema e, posteriormente, alterar algum dado em seu cadastro, como também realizar a exclusão deste.  
 
 Figura 7 - Modelo TO-BE do processo de cadastro de Veterinário<p>
-![figura7](img/CadAbrigoTO.png)<p>
+![figura7](../img/CadAbrigoTO.png)<p>
 Fonte: Os autores.  
 
 ### [3.2.3 Processo de Cadastro de Animais (TO-BE)](#sumario) <a name="animaisTO"></a>
@@ -175,7 +175,7 @@ Processos Automatizados:
 > - Manter um registro de todos os dados de saúde e tratamento que o animal recebeu desde a chegada.<p>
 
 Figura 8 - Modelo TO-BE do processo de cadastro de animais<p>
-![figura8](img/CadAnimaisTO.png)<p>
+![figura8](../img/CadAnimaisTO.png)<p>
 Fonte: Os autores.  
 
 ### [3.2.4 Processo de Cadastro de Adotantes (TO-BE)](#sumario) <a name="adotantesTO"></a>
@@ -183,7 +183,7 @@ Fonte: Os autores.
 &emsp;&emsp;Este processo refere-se ao Cadastro de Adotantes, em que possíveis candidatos podem se cadastrar no sistema para adotar um animal. O candidato pode realizar *login* e, posteriormente, alterar algum dado em seu cadastro, como também realizar a exclusão deste.  
 
 Figura 9 - Modelo TO-BE do processo de cadastro de adotantes<p>
-![figura9](img/CadAdotantesTO.png)<p>
+![figura9](../img/CadAdotantesTO.png)<p>
 Fonte: Os autores.  
 
 ### [3.2.5 Processo de Adoção (TO-BE)](#sumario) <a name="adocaoTO"></a>
@@ -197,7 +197,7 @@ Fonte: Os autores.
 &emsp;&emsp;As informações relativas ao animal, adotante, veterinário e à ONG envolvidas nessa adoção, são enviadas por *e-mail* pela ONG como um Termo de Comprometimento e Responsabilidade com assinatura digital para o adotante. Após o envio do e-mail, a entrega do animal é realizada da maneira escolhida, terminando o processo por completo. Com toda informação necessária sobre o animal, a esperança é de que o adotante seja comprometido e responsável.  
 
 Figura 10 - Modelo TO-BE do processo adoção de animais<p>
-![figura10](img/ProcAnimaisTO.png)<p>
+![figura10](../img/ProcAnimaisTO.png)<p>
 Fonte: Os autores.
 
 ### [3.2.6 Processo de Pós-Adoção (TO-BE)](#sumario) <a name="posTO"></a>
@@ -210,7 +210,7 @@ Fonte: Os autores.
 &emsp;&emsp;No caso do animal não estar adaptado ou de ser uma situação diversa, a ONG recebe um aviso. A pessoa responsável na ONG visualiza a resposta e avalia a situação. Ela envia um comunicado para o adotante dizendo que gostaria de marcar um encontro para resolver a situação. Se por acaso o problema for resolvido, a pessoa responsável na ONG registra no sistema que a situação na qual o adotante estava passando foi solucionada, o processo é finalizado neste ponto. Uma vez que a devida situação não tenha sido resolvida, a pessoa responsável na ONG atenta o adotante de que talvez o animal não possa continuar sendo mantido sob seus cuidados, conforme foi prometido no termo de comprometimento. O registro dessa visita é feito no sistema como um sinal de que o adotante pode não estar cuidando muito bem do animal. O processo finaliza neste ponto.  
 
 Figura 11 - Modelo TO-BE do processo de pós-adoção<p>
-![figura11](img/ProcPosTO.png)<p>
+![figura11](../img/ProcPosTO.png)<p>
 Fonte: Os autores.
 
 ### [4 PROJETO DA ARQUITETURA DE DADOS DA SOLUÇÃO PROPOSTA](#sumario) <a name="arquitetura"></a>
@@ -218,7 +218,7 @@ Fonte: Os autores.
 ### [4.1 DIAGRAMA DE ENTIDADES E RELACIONAMENTOS (DER)](#sumario) <a name="der"></a>
 
 Figura 12 - Diagrama de Entidades e Relacionamentos<p>
-![figura12](img/der.png)<p>
+![figura12](../img/der.png)<p>
 Fonte: Os autores.
 
 ### [4.2 IMPACTOS DA IMPLEMENTAÇÃO EM UM BANCO DE DADOS NOSQL](#sumario) <a name="noSQL"></a>
@@ -234,7 +234,7 @@ Fonte: Os autores.
 ### [4.3 MODELO RELACIONAL](#sumario) <a name="relacional"></a>
 
 Figura 13 - Modelo relacional<p>
-![figura13](img/relacional.png)<p>
+![figura13](../img/relacional.png)<p>
 Fonte: Os autores.
 
 ### [4.4 ESBOÇO DE CONSULTAS COM SQL DE ACORDO COM AS NECESSIDADES DOS PARTICIPANTES DO PROCESSO](#sumario) <a name="consultaSQL"></a><p>
@@ -276,60 +276,60 @@ Nome do Relatório Analítico
 ## ONG e Abrigo
 > **Relatório Adoção de Animais-(R1) ONG_ABRIGO-tipoTabela-Somatória de animais por ONG_Abrigo-Ordenado por Nome**<p>
 >   Relatório tem como finalidade relacionar o Cadastro de ONG e Abrigo de forma geral, e a somatória de animais por ONG e Abrigo.<p>
->    ![figura14](img/relatório_ONG_Abrigo_tipotabela.png)<p>
+>    ![figura14](../img/relatório_ONG_Abrigo_tipotabela.png)<p>
 > **Relatório Adoção de Animais-(R1) ONG_ABRIGO-tipoGráficobarra-Somatória de animais por ONG_Abrigo**<p>
 >   Relatório tem como finalidade visualizar no Gráfico de barra a somatória de animais por ONG e Abrigo.<p>
->    ![figura15](img/relatório_ONG_Abrigo_gráficobarra.png)<p>
+>    ![figura15](../img/relatório_ONG_Abrigo_gráficobarra.png)<p>
 > **Relatório Adoção de Animais-(R1) ONG_ABRIGO-tipoGráficopizza-Somatória de animais por ONG_Abrigo em %**<p>
 >   Relatório tem como finalidade visualizar no Gráfico de pizza a somatória de animais por ONG e Abrigo em Porcentagem.<p>
->    ![figura16](img/relatório_ONG_Abrigo_gráficopizza.png)<p>
+>    ![figura16](../img/relatório_ONG_Abrigo_gráficopizza.png)<p>
    
 ## Veterinário    
 > **Relatório Adoção de Animais-(R2) VETERINÁRIO-tipoTabela-Somatória de animais por VETERINÁRIO-Ordenado por Nome**<p>
 >   Relatório tem como finalidade relacionar o Cadastro de Veterinário de forma geral para controle.<p>
->    ![figura17](img/relatório_VETERINÁRIO_mensaltabela.png)<p>
+>    ![figura17](../img/relatório_VETERINÁRIO_mensaltabela.png)<p>
 > **Relatório Adoção de Animais-(R2) VETERINÁRIO-tipoGráficobarra-Somatória de animais por VETERINÁRIO**<p>
 >   Relatório tem como finalidade visualizar no Gráfico de barra a somatória de animais por Veterinário.<p>
->    ![figura18](img/relatório_VETERINÁRIO_gráficobarra.png)<p>
+>    ![figura18](../img/relatório_VETERINÁRIO_gráficobarra.png)<p>
 > **Relatório Adoção de Animais-(R2)VETERINÁRIO-tipoGráficopizza-Somatória de animais por VETERINÁRIO em %**<p>
 >   Relatório tem como finalidade visualizar no Gráfico de pizza a somatória de animais por Veterinário em Porcentagem.<p>
->    ![figura19](img/relatório_VETERINÁRIO_gráficopizza.png)<p>
+>    ![figura19](../img/relatório_VETERINÁRIO_gráficopizza.png)<p>
     
 ## Animais   
 > **Relatório Adoção de Animais-(R3) ANIMAIS-tipoTabela-Cadastro de ANIMAIS-Ordenado por Nome**<p>
 >   Relatório tem como finalidade relacionar o Cadastro de Animais de forma geral para controle, visualização e acompanhamento dos animais, suas características e saúde.<p> 
->    ![figura19](img/relatório_ANIMAIS_tipotabela_cadastro.png)<p>
+>    ![figura20](../img/relatório_ANIMAIS_tipotabela_cadastro.png)<p>
 > **Relatório Adoção de Animais-(R3) ANIMAIS-tipoTabela-Relatório situação crítica dos ANIMAIS-Ordenado por Nome**<p>
 >   Relatório estatístico que tem como finalidade apresentar a situação dos Animais em estado crítico, informação importante porque mostra os animais que tem uma ou mais doenças crônicas, ou um ou mais tratamentos e estão a mais de 1 ano persistindo nessa condição de saúde.<p>
->    ![figura20](img/relatório_ANIMAIS_tipotabela_crítico.png)<p>    
+>    ![figura21](../img/relatório_ANIMAIS_tipotabela_crítico.png)<p>    
 > **Relatório Adoção de Animais-(R3) ANIMAIS-tipoGráficobarra-Gráfico por idade dos ANIMAIS**<p>
 >   Relatório tem como finalidade visualizar no Gráfico de barras a variação de idade dos animais.<p>
->    ![figura21](img/relatório_ANIMAIS_gráficobarra_idade.png)<p>
+>    ![figura22](../img/relatório_ANIMAIS_gráficobarra_idade.png)<p>
 > **Relatório Adoção de Animais-(R3) ANIMAIS-tipoGráficopizza-Gráfico por idade dos ANIMAIS em %**<p>
 >   Relatório tem como finalidade visualizar no Gráfico de pizza a variação de idade dos animais em Porcentagem.<p>
->    ![figura22](img/relatório_ANIMAIS_gráficopizza_idade.png)<p>
+>    ![figura23](../img/relatório_ANIMAIS_gráficopizza_idade.png)<p>
     
 ## Doenças Crônicas        
 > **Relatório Adoção de Animais-(R7) DOENÇAS CRÔNICAS-tipoTabela-Cadastro de DOENÇAS CRÔNICAS-Ordenado por Nome**<p>
 >   Relatório tem como finalidade relacionar o Cadastro de Doenças Crônicas de forma geral para controle.<p> 
->    ![figura23](img/relatório_DOENÇAS_CRÔNICAS_tipoTabela.png)<p>
+>    ![figura24](../img/relatório_DOENÇAS_CRÔNICAS_tipoTabela.png)<p>
 > **Relatório Adoção de Animais-(R7) DOENÇAS CRÔNICAS-tipoGráficobarra-Cadastro de DOENÇAS CRÔNICAS**<p>
 >   Relatório tem como finalidade visualizar no Gráfico de barras o Cadastro de Doenças Crônicas.<p>
->    ![figura24](img/relatório_DOENÇAS_CRÔNICAS_gráficobarra.png)<p>
+>    ![figura25](../img/relatório_DOENÇAS_CRÔNICAS_gráficobarra.png)<p>
 > **Relatório Adoção de Animais-(R7) DOENÇAS CRÔNICAS-tipoGráficopizza-Cadastro de DOENÇAS CRÔNICAS em %**<p>
 >   Relatório tem como finalidade visualizar no Gráfico de pizza o Cadastro de Doenças Crônicas em Porcentagem.<p>
->    ![figura25](img/relatório_DOENÇAS_CRÔNICAS_gráficopizza.png)<p>
+>    ![figura26](../img/relatório_DOENÇAS_CRÔNICAS_gráficopizza.png)<p>
   
 ## Tratamentos  
 > **Relatório Adoção de Animais-(R8) TRATAMENTOS-tipoTabela-TRATAMENTOS-Ordenado por Data da Consulta**<p>
 >   Relatório tem como finalidade relacionar os TRATAMENTOS por Data da Consulta.<p> 
->    ![figura26](img/relatório_TRATAMENTO_tipotabela.png)<p>
+>    ![figura27](../img/relatório_TRATAMENTO_tipotabela.png)<p>
 > **Relatório Adoção de Animais-(R8) TRATAMENTOS-tipoGráficobarra-Relação de quantidade de TRATAMENTOS por Animal**<p>
 >   Relatório tem como finalidade visualizar no Gráfico de barras a relação de quantidade de TRATAMENTOS por Animal.<p>
->    ![figura27](img/relatório_TRATAMENTO_gráficobarra.png)<p>
+>    ![figura28](../img/relatório_TRATAMENTO_gráficobarra.png)<p>
 > **Relatório Adoção de Animais-(R8) TRATAMENTOS-tipoGráficopizza-Quantidade de TRATAMENTOS por Animal em %**<p>
 >   Relatório tem como finalidade visualizar no Gráfico de pizza a quantidade de TRATAMENTOS por Animal em Porcentagem.<p>
->    ![figura28](img/relatório_TRATAMENTO_gráficopizza.png)<p> 
+>    ![figura29](../img/relatório_TRATAMENTO_gráficopizza.png)<p> 
    
  
 ### [5.1 ASSOCIAÇÃO DE COMANDOS SQL COM RELATÓRIOS ANALÍTICOS](#sumario) <a name="comandosSQL"></a>
