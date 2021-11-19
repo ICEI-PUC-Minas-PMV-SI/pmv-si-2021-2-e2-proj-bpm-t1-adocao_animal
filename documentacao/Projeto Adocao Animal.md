@@ -504,7 +504,7 @@ FROM
 WHERE
   Doencas Cronicas > 0
   OR Tratamento > 0
-  AND 'Data em que o animal foi resgatado' < 'Data em que o animal foi resgatado' - 365
+  AND Data em que o animal foi resgatado < Data em que o animal foi resgatado - 365
 ORDER BY
   Nome
 ```
