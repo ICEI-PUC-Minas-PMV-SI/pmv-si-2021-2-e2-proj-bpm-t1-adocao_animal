@@ -672,15 +672,6 @@ Avaliação do Programa | Buscar avaliar o sucesso dos processos de adoção, re
 
 </br>
 
-### [Planilha de verificação para avaliação da qualidade e viabilidade do software produzido.](#sumario) <a name="ref"></a>
-
-![ASPECTOS GERAIS](https://user-images.githubusercontent.com/81273082/141598511-86f0c4a6-624b-4770-9c5d-72f816c656d2.JPG)
-![Interfaces de usuario](https://user-images.githubusercontent.com/81273082/141598554-5120d830-30bd-435d-8692-681e1a49642b.JPG)
-![Classes](https://user-images.githubusercontent.com/81273082/141598569-66baa750-c95c-4206-8485-d0026bbab328.JPG)
-
-
-[Lista de Conferência - Qualidade e Viabilidade do Software.xls](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2021-2-e2-proj-bpm-t1-adocao_animal/files/7531077/Lista.de.Conferencia.-.Qualidade.e.Viabilidade.do.Software.xls)
-
 ### [7 CONCLUSÃO](#sumario) <a name="conclusao"></a>
 
 &emsp;&emsp;Apresentem aqui a conclusão do trabalho que deve conter uma **síntese** dos **principais resultados** obtidos com a melhoria dos processos, uma discussão das **limitações** da solução proposta e **sugestões de novas linhas de estudo**.  
