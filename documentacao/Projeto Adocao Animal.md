@@ -674,16 +674,23 @@ Avaliação do Programa | Buscar avaliar o sucesso dos processos de adoção, re
 
 ### [7 CONCLUSÃO](#sumario) <a name="conclusao"></a>
 
-&emsp;&emsp;Apresentem aqui a conclusão do trabalho que deve conter uma **síntese** dos **principais resultados** obtidos com a melhoria dos processos, uma discussão das **limitações** da solução proposta e **sugestões de novas linhas de estudo**.  
-
-&emsp;&emsp;Como um animal será adotado, cabe a pessoa que o adotou ser seu responsável. No caso de abandono, perda ou roubo do animal, outro objetivo específico é propor a implantação de um microchip no animal vinculado à pessoa responsável pela adoção ou ao local onde o animal foi adotado. O microchip serve para que seja feita a identificação do animal e de seu responsável no caso dele se perder. Os dados contidos nesse microchip podem ser lidos por alguém que tenha o leitor do referido microchip, nos quais estão cadastrados em um banco de dados. (SE ENCAIXA MELHOR COMO UMA LIMITAÇÃO, AINDA NÃO É POSSÍVEL TER MUITA CERTEZA DISSO, POUCA UTILIZAÇÃO, POSSÍVEL USO NO FUTURO, IMPLEMENTAÇÃO NO NEGÓCIO (CONCLUSÃO))
+&emsp;&emsp;Com a centralização dos dados de adotantes, animais e instituições parceiras, o processo de adoção é executado de forma linear e fluída. Essa forma ágil permite que o processo reflita ao adotante a sensação de evolução nos *steps* para a finalização do mesmo. Esse é o principal destaque ao se comparar o modelo anterior, com o proposto. Outra característica marcante tem como premissa o cuidado com relação aos animais, se valendo de processos que envolvem o tratamento de parasitas, doenças comuns a cada espécie, doenças crônicas, zoonoses, alimentação e o próprio abrigo em si, removendo os animais da rua, trazendo benefícios tanto para os próprios animais, quanto para a comunidade em geral.<p>
+&emsp;&emsp;Entretanto, a aplicação possui algumas limitações. Dentre elas, podemos citar a questão do armazenamento e administração do banco de dados. Mesmo que a proposta envolva o armazenamento dos dados em nuvem, é necessário a atuação de um DBA e consequentemente, que a utilização desses dados seja regida pela Lei Geral de Proteção de Dados Pessoais do Brasil (LGPD), de nº 13.853, de 8 de julho de 2019. Sendo assim, é necessário a busca por parceria envolvendo instituição governamental e ou subsidiária registrada que possa ser tutora desses dados.<p>
+&emsp;&emsp;Após o desenvolvimento inicial da proposta, se torna viável aprofundar sua analise a luz das propriedades ACID, com o intuito de entender qual a melhor plataforma para sua implementação. O mercado oferece várias opções de SGBDS relacionais ou noSQL, sistemas pagos ou gratuitos, sendo que alguns deles ainda oferecem espaço de armazenamento gratuito (limitado a uma certa quantidade de megabytes).
 <p>
+
+</br>
 
 ### [REFERÊNCIAS](#sumario) <a name="ref"></a>
 
-Como um projeto de software não requer revisão bibliográfica, a inclusão das referências não é obrigatória. No entanto, caso vocês desejem incluir referências relacionadas às tecnologias, padrões, ou metodologias empregadas no trabalho, relacione-as de acordo com a ABNT.
-Verifiquem no link abaixo como devem ser as referências no padrão ABNT:
-http://www.pucminas.br/imagedb/documento/DOC_DSC_NOME_ARQUI20160217102425.pdf
-
 ANDA, Agência de Notícias de Direitos Animais. Brasil tem 30 milhões de animais abandonados. Portal de Notícias sobre Animais do Mundo, 13 de setembro de 2013. Disponível em: <https://anda.jusbrasil.com.br/noticias/100681698/brasil-tem-30-milhoes-de-animais-abandonados>. Acesso em: 20 de agosto de 2021.
+<p>
+
+Governo Federal, LEI Nº 13.426, DE 30 DE MARÇO DE 2017. Dispõe sobre a política de controle da natalidade de cães e gatos e dá outras providências. Disponível em: <http://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/L13426.htm>. Acesso em: 20 de agosto de 2021.
+<p>
+
+Observatorio Eco, Jusbrasil. Já está em vigor lei sobre o controle de natalidade de cães e gatos. Disponível em: <https://observatorio-eco.jusbrasil.com.br/noticias/488869483/ja-esta-em-vigor-lei-sobre-o-controle-de-natalidade-de-caes-e-gatos>. Acesso em: 20 de agosto de 2021.
+<p>
+
+LGPD, LEI Nº 13.853, 2019. Lei Geral de Proteção de Dados Pessoais do Brasil. Disponível em: <http://www.planalto.gov.br/ccivil_03/_Ato2019-2022/2019/Lei/L13853.htm#art1>. Acesso em: 30 de novembro de 2021.
 <p>
