@@ -131,19 +131,19 @@ Fonte: Os autores.
 
 &emsp;&emsp;Visando sanar as dores do modelo de negócio atual, tem-se como objetivo, através de recursos tecnológicos, criar o Sistema Integrado de Controle de Adoção de Animais, com as seguintes características:  
 > - Gerir as pessoas que têm interesse em adotar animais;
-> - Realizar a integração entre ONGs, parceiros e comunidade;
-> - Fazer o acompanhamento preventivo e preditivo dos animais;
-> - Gerar maior escalabilidade no processo de adoção;
-> - Acelerar o processo de adoção.
+> - realizar a integração entre ONGs, parceiros e comunidade;
+> - fazer o acompanhamento preventivo e preditivo dos animais;
+> - gerar maior escalabilidade no processo de adoção;
+> - acelerar o processo de adoção.<p>
 Inicialmente, o sistema conta com os seguintes recursos:
 > - Cadastro de ONGs e Abrigos com o objetivo de que desenvolvam o papel de administradoras e organizadoras do negócio;
-> - Cadastro de adotantes com o objetivo de aproximá-los das entidades de adoção de animais;
-> - Cadastro de animais com o objetivo de dar maior visibilidade às pessoas interessadas em adotá-los;
-> - Controle da saúde do animal para que seja possível fazer um check-up e acompanhamento do animal até que o mesmo tenha a saúde necessária para ir para um lar adotivo;
-> - Funcionalidades que visam dar maior escalabilidade e celeridade ao processo de adoção;
-> - Funcionalidades para acompanhamento preditivo de animais que permitem o controle e acompanhamento da saúde e dos cuidados do animal;
-> - Funcionalidades para acompanhar o adotante, analisando se este está seguindo as recomendações para o melhor cuidado do animal;
-> - Funcionalidades de administração do sistema concedidas à pessoa responsável na ONG/Abrigo.
+> - cadastro de adotantes com o objetivo de aproximá-los das entidades de adoção de animais;
+> - cadastro de animais com o objetivo de dar maior visibilidade às pessoas interessadas em adotá-los;
+> - controle da saúde do animal para que seja possível fazer um check-up e acompanhamento do animal até que o mesmo tenha a saúde necessária para ir para um lar adotivo;
+> - funcionalidades que visam dar maior escalabilidade e celeridade ao processo de adoção;
+> - funcionalidades para acompanhamento preditivo de animais que permitem o controle e acompanhamento da saúde e dos cuidados do animal;
+> - funcionalidades para acompanhar o adotante, analisando se este está seguindo as recomendações para o melhor cuidado do animal;
+> - funcionalidades de administração do sistema concedidas à pessoa responsável na ONG/Abrigo.
 <p>&emsp;&emsp;Posteriormente, outros recursos podem ser implementados no sistema, de forma que alavanque o processo de adoção e diminua a quantidade de animais abandonados e à espera de um lar. Os participantes realizam as ações por meio digital, acessando a plataforma do Sistema Integrado de Controle de Adoção de Animais. A base de dados armazena os dados dos animais, adotantes, veterinários e da ONG.</br>
 &emsp;&emsp;A utilização do sistema é uma melhoria significativa no negócio, tendo em vista que anteriormente, a comunicação entre as partes era feita manualmente (sem a utilização de um sistema integrado), como o contato por telefone ou celular. A planilha de animais, a tabela de adotantes aptos e as clínicas veterinárias parceiras, por exemplo, eram informações privadas das organizações de proteção animal.</br>
 &emsp;&emsp;Com o acesso público ao sistema, as pessoas envolvidas podem entrar, visualizar e redigir comentários, realizar pesquisas, enviar arquivos e interagir com os participantes do negócio.  
@@ -171,8 +171,8 @@ Fonte: Os autores.
 &emsp;&emsp;O objetivo da proposta é para que assim que for comunicado à ONG a doação do animal, seja resgatado ou doado. A ONG por meio de um aplicativo consegue comunicar os veterinários parceiros e consegue agendar uma consulta  para avaliação completa da saúde do animal. Após a avaliação o veterinário  responde se o animal está apto ou não para adoção e o sistema já encaminha os dados do animal e um foto para a divulgação no site e comunica todos os adotantes cadastrados sobre a chegada do novo animal apto para adoção.  
 Processos Automatizados:
 > - Notificar os veterinários parceiros sobre a chegada do animal para realizar a consulta;
-> - Notificar os adotantes cadastrados sobre o novo animal apto para adoção;
-> - Manter um registro de todos os dados de saúde e tratamento que o animal recebeu desde a chegada.<p>
+> - notificar os adotantes cadastrados sobre o novo animal apto para adoção;
+> - manter um registro de todos os dados de saúde e tratamento que o animal recebeu desde a chegada.<p>
 
 Figura 8 - Modelo TO-BE do processo de cadastro de animais<p>
 ![figura8](../img/CadAnimaisTO.png)<p>
